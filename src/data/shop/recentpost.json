@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "img": "assets/img/shop/sp1.jpg",
+        "title": "Brown liquid inside",
+        "price": 85.25
+    },
+    {
+        "id":2,
+        "img": "assets/img/shop/sp2.jpg",
+        "title": "Brown liquid inside",
+        "price": 67.35
+    },
+    {
+        "id":3,
+        "img": "assets/img/shop/sp3.jpg",
+        "title": "Brown liquid inside",
+        "price": 98.02
+    },
+    {
+        "id":4,
+        "img": "assets/img/shop/sp4.jpg",
+        "title": "Brown liquid inside",
+        "price": 10.98
+    }
+]

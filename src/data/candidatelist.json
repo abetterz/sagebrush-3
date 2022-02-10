@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "img": "assets/img/categories/category1.png",
+        "title": "Martha, NY"
+    },
+    {
+        "id": 2,
+        "img": "assets/img/categories/category2.png",
+        "title": "Michle, CA"
+    },
+    {
+        "id": 3,
+        "img": "assets/img/categories/category3.png",
+        "title": "Adem, LA"
+    },
+    {
+        "id": 4,
+        "img": "assets/img/categories/category4.png",
+        "title": "Jimmy, CA"
+    },
+    {
+        "id": 5,
+        "img": "assets/img/categories/category5.png",
+        "title": "Nico, FL"
+    },
+    {
+        "id": 6,
+        "img": "assets/img/categories/category6.png",
+        "title": "Richa, NY"
+    },
+    {
+        "id": 7,
+        "img": "assets/img/categories/category7.png",
+        "title": "Jordan, NY"
+    },
+    {
+        "id": 8,
+        "img": "assets/img/categories/category8.png",
+        "title": "Hemlet, NJ"
+    },
+    {
+        "id": 9,
+        "img": "assets/img/categories/category9.png",
+        "title": "Ricky, LA"
+    },
+    {
+        "id": 10,
+        "img": "assets/img/categories/category8.png",
+        "title": "Casendra, LA"
+    },
+    {
+        "id": 11,
+        "img": "assets/img/categories/category9.png",
+        "title": "Rob, CA"
+    },
+    {
+        "id": 12,
+        "img": "assets/img/categories/category8.png",
+        "title": "Mily, TX"
+    },
+    {
+        "id": 13,
+        "img": "assets/img/categories/category9.png",
+        "title": "Rob, NY"
+    }
+]

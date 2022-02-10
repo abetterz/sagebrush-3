@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "img": "assets/img/blog/sblog4.jpg",
+        "title": "Building the Party of Tomorrow",
+        "authorname": "Adem Rich"
+    },
+    {
+        "id":2,
+        "img": "assets/img/blog/sblog3.jpg",
+        "title": "Real Talk: Tax Reform, Criminal Justice",
+        "authorname": "Jim Lux"
+    },
+    {
+        "id":3,
+        "img": "assets/img/blog/sblog1.jpg",
+        "title": "Party Leaders Stand Together",
+        "authorname": "Michle Rolls"
+    },
+    {
+        "id":4,
+        "img": "assets/img/blog/sblog1.jpg",
+        "title": "Supporters Overwhelm Campaign Event",
+        "authorname": "Kim Lui"
+    }
+]

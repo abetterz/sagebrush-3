@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "img": "assets/img/user/user-1.png",
+        "date": "29 Jan 2022",
+        "title": "Rosalina Pong",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "replies": []
+    },
+    {
+        "id": 2,
+        "img": "assets/img/user/user-2.png",
+        "date": "30 Jan 2022",
+        "title": "Brian Wright",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "replies": [
+            {
+                "id": 21,
+                "img": "assets/img/user/user-3.png",
+                "date": "30 Jan 2022",
+                "title": "Sarah Wright",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        ]
+    }
+]

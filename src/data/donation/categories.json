@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Children",
+        "count": 110
+    },
+    {
+        "id": 2,
+        "name": "Charity",
+        "count": 98
+    },
+    {
+        "id": 3,
+        "name": "Donation",
+        "count": 52
+    },
+    {
+        "id": 4,
+        "name": "Paintings",
+        "count": 26
+    },
+    {
+        "id": 5,
+        "name": "Antique",
+        "count": 55
+    },
+    {
+        "id": 6,
+        "name": "Handicraft",
+        "count": 48
+    },
+    {
+        "id": 7,
+        "name": "Ceramicart",
+        "count": 50
+    }
+]

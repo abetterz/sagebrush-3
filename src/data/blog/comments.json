@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "img": "assets/img/blog/user1.jpg",
+        "name": "Sarra",
+        "commentdate": "Jan 20, 2022",
+        "comment": "Delivery was fast and friendly. product was not great especially the salad. Will not be ordering from again. Too many options to settle for this place.",
+        "replies": [
+            {
+                "id": 11,
+                "img": "assets/img/blog/user2.jpg",
+                "name": "Jhon",
+                "commentdate": "Sep 20, 2022",
+                "comment": "Delivery was fast and friendly. product was not great especially the salad. Will not be ordering from again. Too many options to settle for this place."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "img": "assets/img/blog/user3.jpg",
+        "name": "Anna",
+        "commentdate": "Sep 20, 2022",
+        "comment": "Delivery was fast and friendly. product was not great especially the salad. Will not be ordering from again. Too many options to settle for this place.",
+        "replies": [
+            {
+                "id": 21,
+                "img": "assets/img/blog/user4.jpg",
+                "name": "Deniel",
+                "commentdate": "Sep 20, 2022",
+                "comment": "Delivery was fast and friendly. product was not great especially the salad. Will not be ordering from again. Too many options to settle for this place."
+            }
+        ]
+    }
+]

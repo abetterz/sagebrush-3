@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "img":"assets/img/story-big/story8.jpg",
+        "authorname":"James Smith",
+        "title":"Building the Party of Tomorrow",
+        "text":"Many desktop publishing package and the web page editor now use lorem Ipsum the model text lorem.",
+        "goalprice":4286.00
+    },
+    {
+        "id":2,
+        "img":"assets/img/story-big/story7.jpg",
+        "authorname":"Michael Smith",
+        "title":"Real Talk: Tax Reform, Criminal Justice",
+        "text":"Many desktop publishing package and the web page editor now use lorem Ipsum the model text lorem.",
+        "goalprice":4453.00
+    },
+    {
+        "id":3,
+        "img":"assets/img/story-big/story6.jpg",
+        "authorname":"Robert Smith",
+        "title":"Party Leaders Stand Together",
+        "text":"Many desktop publishing package and the web page editor now use lorem Ipsum the model text lorem.",
+        "goalprice":4272.00
+    },
+    {
+        "id":4,
+        "img":"assets/img/story-big/story5.jpg",
+        "authorname":"Maria Garcia",
+        "title":"Supporters Overwhelm Campaign Event",
+        "text":"Many desktop publishing package and the web page editor now use lorem Ipsum the model text lorem.",
+        "goalprice":4361.00
+    },
+    {
+        "id":5,
+        "img":"assets/img/story-big/story4.jpg",
+        "authorname":"David Smith",
+        "title":"I'm here because of Ashley",
+        "text":"Many desktop publishing package and the web page editor now use lorem Ipsum the model text lorem.",
+        "goalprice":4719.00
+    },
+    {
+        "id":6,
+        "img":"assets/img/story-big/story3.jpg",
+        "authorname":"Maria Rodriguez",
+        "title":"That won't keep America safe.",
+        "text":"Many desktop publishing package and the web page editor now use lorem Ipsum the model text lorem.",
+        "goalprice":4156.00
+    },
+    {
+        "id":7,
+        "img":"assets/img/story-big/story2.jpg",
+        "authorname":"Maria Hernandez",
+        "title":"Muslim communities are also threatened",
+        "text":"Many desktop publishing package and the web page editor now use lorem Ipsum the model text lorem.",
+        "goalprice":4370.00
+    },
+    {
+        "id":8,
+        "img":"assets/img/story-big/story1.jpg",
+        "authorname":"Mary Smith",
+        "title":"America's commitment will not weaken",
+        "text":"Many desktop publishing package and the web page editor now use lorem Ipsum the model text lorem.",
+        "goalprice":4280.00
+    }
+]
