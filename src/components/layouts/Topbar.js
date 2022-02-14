@@ -53,7 +53,7 @@ class Topbar extends Component {
                   </li>
                 </ul>
                 <Link to="#" className="top-btn">
-                  VOTE TODAY
+                  DONATE TODAY
                 </Link>
               </div>
             </div>

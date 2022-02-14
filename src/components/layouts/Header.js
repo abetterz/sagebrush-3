@@ -42,7 +42,7 @@ class Header extends Component {
                 <div className="navigation">
                   <div className="logo">
                     <Link to="/">
-                      <img src={logo} className="image-fit" alt="logo" />
+                      {/* <img src={logo} className="image-fit" alt="logo" /> */}
                     </Link>
                   </div>
                   <div
@@ -53,7 +53,7 @@ class Header extends Component {
                     <Menu />
                   </div>
                   <div className="right-side-navigation">
-                    <ul>
+                    <ul style={{ display: "none" }}>
                       <li className="hamburger-menu">
                         <Link
                           to="#"
