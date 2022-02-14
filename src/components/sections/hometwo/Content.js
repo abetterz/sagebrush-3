@@ -21,15 +21,15 @@ class Content extends Component {
                 <Bestseller />
                 <Advertisement />
                 <Community />
-                <section className="section-padding our-product">
+                {/* <section className="section-padding our-product">
                     <Latestproduct />
-                </section>
-                <Advertise/>
-                <Donation/>
-                <Campaign/>
-                <Testimonials/>
-                <Blogpost/>
-                <Newsletter/>
+                </section> */}
+                <Advertise />
+                <Donation />
+                <Campaign />
+                <Testimonials />
+                <Blogpost />
+                <Newsletter />
             </Fragment>
         );
     }

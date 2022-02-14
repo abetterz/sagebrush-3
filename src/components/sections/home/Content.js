@@ -18,20 +18,20 @@ class Content extends Component {
     render() {
         return (
             <Fragment>
-                <Banner/>
-                <Service/>
-                <Candidates/>
-                <Bestseller/>
-                <Masonarygallery/>
-                <Community/>
-                <Ourproduct/>
-                <Advertisement/>
-                <Donation/>
-                <Campaigns/>
-                <Testimonials/>
-                <Blogpost/>
-                <Paravideo/>
-                <Newsletter/>
+                <Banner />
+                <Service />
+                <Candidates />
+                <Bestseller />
+                <Masonarygallery />
+                <Community />
+                {/* <Ourproduct/> */}
+                <Advertisement />
+                <Donation />
+                <Campaigns />
+                <Testimonials />
+                <Blogpost />
+                <Paravideo />
+                <Newsletter />
             </Fragment>
         );
     }

@@ -16,20 +16,20 @@ class Content extends Component {
     render() {
         return (
             <Fragment>
-                <Banner/>
-                <Candidates/>
-                <section className="section-padding our-product">
+                <Banner />
+                <Candidates />
+                {/* <section className="section-padding our-product">
                     <Latestproduct />
-                </section>
-                <Video/>
-                <Hotdeals/>
-                <Ourproduct/>
-                <Advertise/>
-                <Donation/>
-                <Campaign/>
-                <Testimonials/>
-                <Blogpost/>
-                <Newsletter/>
+                </section> */}
+                <Video />
+                <Hotdeals />
+                <Ourproduct />
+                <Advertise />
+                <Donation />
+                <Campaign />
+                <Testimonials />
+                <Blogpost />
+                <Newsletter />
             </Fragment>
         );
     }

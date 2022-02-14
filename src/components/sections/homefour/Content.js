@@ -13,17 +13,17 @@ class Content extends Component {
     render() {
         return (
             <Fragment>
-                <Banner/>
-                <Category/>
-                <Latestproduct/>
-                <Advertise/>
-                <Campaign/>
-                <Advertisement/>
-                <Donation/>
-                <section className="section-padding our-product bg-theme-primary">
+                <Banner />
+                <Category />
+                <Latestproduct />
+                <Advertise />
+                <Campaign />
+                <Advertisement />
+                <Donation />
+                {/* <section className="section-padding our-product bg-theme-primary">
                     <Ourproduct/>
-                </section>
-                <Newsletter/>
+                </section> */}
+                <Newsletter />
             </Fragment>
         );
     }

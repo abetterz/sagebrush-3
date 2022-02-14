@@ -18,12 +18,12 @@ class Content extends Component {
                 <Advertise />
                 <Hotdeals />
                 <Campaigns />
-                <Advertisement/>
-                <section className="section-padding our-product bg-theme-primary">
+                <Advertisement />
+                {/* <section className="section-padding our-product bg-theme-primary">
                     <Latestproduct />
-                </section>
-                <Community/>
-                <Newsletter/>
+                </section> */}
+                <Community />
+                <Newsletter />
             </Fragment>
         );
     }
