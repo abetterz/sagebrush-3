@@ -27,9 +27,32 @@ class Footer extends Component {
                   </p>
                 </div>
               </div>
-              <div className="col-xl col-lg-4 col-md-4 col-sm-6">
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                 <div className="footer-links">
-                  <h6 className="text-custom-white">Get to Know Us</h6>
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="/"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="/"><i class="fab fa-twitter-square"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="/"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="/"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="/"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="/shop" className="btn-solid btn-solid-white">Shop</a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a className="btn-solid btn-solid-white" href="/">DONATE</a>
+                    </li>
+                  </ul>
+                  {/* <h6 className="text-custom-white">Get to Know Us</h6>
                   <ul>
                     <li>
                       <Link to="/about" className="text-white fw-500">
@@ -56,10 +79,10 @@ class Footer extends Component {
                         Perks
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
-              <div className="col-xl col-lg-4 col-md-4 col-sm-6">
+              {/* <div className="col-xl col-lg-4 col-md-4 col-sm-6">
                 <div className="footer-links">
                   <h6 className="text-custom-white">Let Us Help You</h6>
                   <ul>
@@ -122,12 +145,12 @@ class Footer extends Component {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
               <div className="col-xl col-lg-4 col-md-4 col-sm-6">
                 <div className="footer-links">
                   <h6 className="text-custom-white">Contact info</h6>
                   <ul className="contact-info">
-                    <li>
+                    {/* <li>
                       <Link to="#" className="text-white">
                         {" "}
                         <span>
@@ -135,7 +158,7 @@ class Footer extends Component {
                         </span>
                         Monday - Friday: 9:00 AM - 06:00 PM
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link to="#" className="text-white">
                         {" "}
@@ -154,7 +177,7 @@ class Footer extends Component {
                         (+348) 123 456 7890
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="#" className="text-white">
                         {" "}
                         <span>
@@ -162,7 +185,7 @@ class Footer extends Component {
                         </span>
                         (+348) 123 456 7890
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
