@@ -18,7 +18,6 @@ class Content extends Component {
             <Fragment>
                 <Banner />
                 <About />
-                <Bestseller />
                 <Advertisement />
                 <Community />
                 {/* <section className="section-padding our-product">
@@ -30,6 +29,7 @@ class Content extends Component {
                 <Testimonials />
                 <Blogpost />
                 <Newsletter />
+                <Bestseller />
             </Fragment>
         );
     }
