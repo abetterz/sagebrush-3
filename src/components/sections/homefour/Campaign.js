@@ -59,7 +59,7 @@ class Campaign extends Component {
     }
     render() {
         return (
-            <section className="section-padding our-product">
+            <section className="section-padding our-product" style={{ display: "none" }}>
                 <div className="container-fluid custom-container">
                     <div className="row">
                         <div className="col-12">
