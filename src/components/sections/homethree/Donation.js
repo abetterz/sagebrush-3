@@ -5,7 +5,7 @@ import donationpost from '../../../data/donation/donationpost.json'
 class Donation extends Component {
     render() {
         return (
-            <section className="section-padding ex-collection bg-theme-primary">
+            <section className="section-padding ex-collection bg-theme-primary" style={{ display: "none" }}>
                 <div className="container-fluid custom-container">
                     <div className="row">
                         <div className="col-12">
