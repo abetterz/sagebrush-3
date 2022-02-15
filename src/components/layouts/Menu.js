@@ -29,7 +29,7 @@ class Menu extends Component {
                 <ul className="main-menu">
                     {navigationmenu.length > 0 ? navigationmenu.map((item, i) => (
                         <li key={i} className={`menu-item ${item.child ? 'menu-item-has-children' : ''} `} onClick={this.triggerChild}>
-                            {item.child ? <Link onClick={e => e.preventDefault()} to="/" className="text-light-black"> {item.linkText} </Link> : <Link to={item.link} className="text-light-black"> {item.linkText} </Link>}
+                            {item.child ? <Link onClick={e => e.preventDefault()} to="/" className="text-light-black"> {item.linkText} </Link> : (item.link.startsWith('http') ? <a href={item.link} target="_blank" className="text-light-black">{item.linkText}</a> : <Link to={item.link} className="text-light-black"> {item.linkText} </Link>)}
                             {item.child ?
                                 <ul className="sub-menu" role="menu">
                                     {item.submenu.map((sub_item, i) => (
