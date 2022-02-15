@@ -214,11 +214,33 @@ class Footer extends Component {
                 </div>
               </div>
               <div className="col-lg-4 text-center medewithlove align-self-center">
-                {" "}
-                <Link to="#" className="text-custom-white">
-                  Made with Real <i className="fas fa-heart" /> Z - Axis
-                  Solutions
-                </Link>
+                <ul className="list-inline">
+                  <li className="list-inline-item">
+                    <Link to="#">
+                      <i className="fab fa-facebook-square" />
+                    </Link>{" "}
+                  </li>
+                  <li className="list-inline-item">
+                    <Link to="#">
+                      <i className="fab fa-twitter-square" />
+                    </Link>{" "}
+                  </li>
+                  <li className="list-inline-item">
+                    <Link to="#">
+                      <i className="fab fa-instagram" />
+                    </Link>{" "}
+                  </li>
+                  <li className="list-inline-item">
+                    <Link to="#">
+                      <i className="fab fa-linkedin" />
+                    </Link>{" "}
+                  </li>
+                  <li className="list-inline-item">
+                    <Link to="#">
+                      <i className="fab fa-youtube" />
+                    </Link>{" "}
+                  </li>
+                </ul>
               </div>
               <div className="col-lg-4">
                 <div className="copyright-text">
@@ -226,7 +248,7 @@ class Footer extends Component {
                   <span className="text-white">
                     ©{" "}
                     <Link to="#" className="text-white">
-                      Z - Axis Solutions
+                      Sagebrush Rebellion
                     </Link>{" "}
                     - 2022 | All Right Reserved
                   </span>

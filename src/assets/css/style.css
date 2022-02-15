@@ -8080,5 +8080,15 @@ footer .footer-links .contact-info li a span {
 }
 
 .payemt-icon a span {
+	font-size: 22px;
+}
+
+.payemt-icon a span i {
 	margin-right: 10px;
+	font-size: 18px;
+}
+
+.copyright i {
+	color: white !important;
+	font-size: 20px;
 }
