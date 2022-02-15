@@ -198,14 +198,23 @@ class Footer extends Component {
               <div className="col-lg-4">
                 <div className="payment-logo mb-md-20">
                   <div className="payemt-icon">
-                    <ul className="contact-info">
+                    <ul className="contact-info list-inline d-flex">
                       <li>
-                        <Link to="#" className="text-white">
+                        <Link to="#" className="text-white mr-2">
                           {" "}
                           <span>
                             <i className="pe-7s-mail" />
                           </span>
                           info@sagebrush.com
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="#" className="text-white">
+                          {" "}
+                          <span>
+                            <i className="fas fa-phone-alt" />
+                          </span>
+                          +1 863 123-4568
                         </Link>
                       </li>
                     </ul>
