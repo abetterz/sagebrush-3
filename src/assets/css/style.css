@@ -8074,15 +8074,11 @@ footer .footer-links .contact-info li a span {
 	display: block !important;
 }
 
-/* About */
-.footer-links i {
-	color: white;
-	font-size: 24px;
-}
-
-.footer-links .list-inline {
-	margin-top: 40px;
+.payemt-icon a {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+}
+
+.payemt-icon a span {
+	margin-right: 10px;
 }

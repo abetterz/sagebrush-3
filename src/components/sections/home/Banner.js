@@ -38,7 +38,7 @@ class Banner extends Component {
                                             <h5 className="text-white">{item.subtitle}</h5>
                                             <h1 className="text-white fw-600">{item.title} <span className="text-custom-pink">{item.titlespan}</span> {item.titlespanafter}</h1>
                                             <p className="text-white fw-400">{item.description}</p>
-                                            <Link to="/about" className="btn-solid with-line btn-big mt-20 mr-1"><span>{item.btn1} <i className="fas fa-caret-right" /></span></Link>
+                                            <Link to="/about" className="btn-solid with-line btn-big mt-20 mr-1" style={{ display: "none" }}><span>{item.btn1} <i className="fas fa-caret-right" /></span></Link>
                                             <Link to="/shop-left" className="border-butn mt-20 ml-1"><span>{item.btn2}</span></Link>
                                         </div>
                                     </div>

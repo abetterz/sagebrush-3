@@ -198,7 +198,18 @@ class Footer extends Component {
               <div className="col-lg-4">
                 <div className="payment-logo mb-md-20">
                   <div className="payemt-icon">
-                    <img src={footerimg} alt="#" />
+                    <ul className="contact-info">
+                      <li>
+                        <Link to="#" className="text-white">
+                          {" "}
+                          <span>
+                            <i className="pe-7s-mail" />
+                          </span>
+                          info@sagebrush.com
+                        </Link>
+                      </li>
+                    </ul>
+                    {/* <img src={footerimg} alt="#" /> */}
                   </div>
                 </div>
               </div>
@@ -224,7 +235,7 @@ class Footer extends Component {
             </div>
           </div>
         </div>
-      </Fragment>
+      </Fragment >
     );
   }
 }

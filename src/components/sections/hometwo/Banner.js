@@ -37,7 +37,7 @@ class Banner extends Component {
                         </p>
                         <Link
                           to="/shop-left"
-                          className="btn-solid with-line btn-big mt-20"
+                          className="btn-solid with-line btn-big mt-20" style={{ display: "none" }}
                         >
                           <span>
                             Shop Now <i className="fas fa-caret-right" />
