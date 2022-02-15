@@ -8092,3 +8092,7 @@ footer .footer-links .contact-info li a span {
 	color: white !important;
 	font-size: 20px;
 }
+
+footer {
+	display: none;
+}
