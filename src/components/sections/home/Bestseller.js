@@ -33,7 +33,7 @@ class Bestseller extends Component {
     }
     render() {
         return (
-            <section className="recent-order section-padding">
+            <section className="recent-order section-padding bg-theme-primary">
                 <div className="container-fluid custom-container">
                     <div className="row">
                         <div className="col-12">
@@ -105,7 +105,7 @@ class Bestseller extends Component {
                 </div>
                 <Modal show={this.state.show} onHide={this.handleClose} size="xl" aria-labelledby="contained-modal-title-vcenter" centered>
                     <Modal.Body>
-                    <button type="button" className="close" onClick={this.handleClose}>×</button>
+                        <button type="button" className="close" onClick={this.handleClose}>×</button>
                         <Quickview />
                     </Modal.Body>
                 </Modal>
