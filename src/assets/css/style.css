@@ -1524,7 +1524,7 @@ span.type-tag {
 }
 
 .header .navigation .logo {
-	width: 120px;
+	/* width: 120px; */
 	height: 40px;
 	margin: 10px 0;
 	z-index: 10;
