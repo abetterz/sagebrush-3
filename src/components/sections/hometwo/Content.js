@@ -28,8 +28,8 @@ class Content extends Component {
                 <Campaign />
                 <Testimonials />
                 <Blogpost />
-                <Newsletter />
                 <Bestseller />
+                <Newsletter />
             </Fragment>
         );
     }

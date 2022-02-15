@@ -33,7 +33,7 @@ class Bestseller extends Component {
     }
     render() {
         return (
-            <section className="recent-order section-padding bg-theme-primary">
+            <section className="recent-order section-padding">
                 <div className="container-fluid custom-container">
                     <div className="row">
                         <div className="col-12">

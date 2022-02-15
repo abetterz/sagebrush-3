@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Newslettertwo extends Component {
     render() {
         return (
-            <section className="section-padding block_newsletter">
+            <section className="section-padding block_newsletter bg-theme-primary">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
