@@ -26,11 +26,11 @@ const Register = React.lazy(() => import("./components/pages/Register"));
 const Shopleft = React.lazy(() => import("./components/pages/Shopleft"));
 const Shopright = React.lazy(() => import("./components/pages/Shopright"));
 // const Shopdetail = React.lazy(() => import("./components/pages/Shopdetail"));
-const MoreThanOneLifeChanged = React.lazy(() => import("./components/pages/MoreThanOneLifeChanged"));
-const HelpChildrenEast = React.lazy(() => import("./components/pages/MoreThanOneLifeChanged"));
-const MoreThanOne = React.lazy(() => import("./components/pages/MoreThanOneLifeChanged"));
-const MoreThanTwo = React.lazy(() => import("./components/pages/MoreThanOneLifeChanged"));
-const MoreThanThree = React.lazy(() => import("./components/pages/MoreThanOneLifeChanged"));
+const AgricultureAndFoodSecurity = React.lazy(() => import("./components/pages/AgricultureAndFoodSecurity"));
+const ChineseAggression = React.lazy(() => import("./components/pages/ChineseAggression"));
+const AmericanIndustry = React.lazy(() => import("./components/pages/AmericanIndustry"));
+const CryptoCurrencies = React.lazy(() => import("./components/pages/CryptoCurrencies"));
+const LocalLandManagement = React.lazy(() => import("./components/pages/LocalLandManagement"));
 const Wishlist = React.lazy(() => import("./components/pages/Wishlist"));
 const Checkout = React.lazy(() => import("./components/pages/Checkout"));
 const Order = React.lazy(() => import("./components/pages/Order"));
@@ -61,11 +61,11 @@ function App() {
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/shop-left" component={Shopleft} />
-          <Route exact path="/more-than-one-life-changed" component={MoreThanOneLifeChanged} />
-          <Route exact path="/help-children-east" component={HelpChildrenEast} />
-          <Route exact path="/more-than-one" component={MoreThanOne} />
-          <Route exact path="/more-than-two" component={MoreThanTwo} />
-          <Route exact path="/more-than-three" component={MoreThanThree} />
+          <Route exact path="/agriculture-and-food-security" component={AgricultureAndFoodSecurity} />
+          <Route exact path="/chinese-aggression" component={ChineseAggression} />
+          <Route exact path="/american-industry" component={AmericanIndustry} />
+          <Route exact path="/crypto-currencies" component={CryptoCurrencies} />
+          <Route exact path="/local-land-management" component={LocalLandManagement} />
           {/* <Route exact path="/shop-details" component={Shopdetail} /> */}
           <Route exact path="/wishlist" component={Wishlist} />
           <Route exact path="/checkout" component={Checkout} />
