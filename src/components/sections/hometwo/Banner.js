@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import video from "../../../assets/img/video-bg.mp4";
+// import video from "../../../assets/img/video-bg-1.mp4";
 
 class Banner extends Component {
   render() {
@@ -16,7 +16,7 @@ class Banner extends Component {
                   muted="muted"
                   loop="loop"
                 >
-                  <source src={video} type="video/mp4" />
+                  <source src="assets/img/video-bg.mp4?ver=1" type="video/mp4" />
                 </video>
                 <div className="overlay overlay-bg-dark-2" />
               </div>

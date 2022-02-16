@@ -10,7 +10,7 @@ class Banner extends Component {
                         <div className="col-md-6">
                             <div className="main-banner video-banner">
                                 <video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
-                                    <source src="assets/img/video-bg.mp4" type="video/mp4" />
+                                    <source src="assets/img/video-bg.mp4?ver=1" type="video/mp4" />
                                 </video>
                                 <div className="overlay overlay-bg-dark-2" />
                             </div>
