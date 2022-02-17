@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import img from '../../../assets/img/home-2-into.jpg';
 
 class About extends Component {
     render() {
@@ -10,7 +9,7 @@ class About extends Component {
                 <div className="row no-gutters">
                     <div className="col-lg-6">
                         <div className="full-height">
-                            <img src={img} alt="img" className="img-fluid full-width full-height" />
+                            <img src="assets/img/home-mission-statement.jpg" alt="img" className="img-fluid full-width full-height" />
                         </div>
                     </div>
                     <div className="col-lg-6 bg-custom-primary">
