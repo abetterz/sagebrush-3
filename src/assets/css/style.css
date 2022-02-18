@@ -3383,12 +3383,16 @@ footer .footer-links .contact-info li a span {
 }
 
 .breadcrumb-area {
-	background-image: url("../img/innerbanner.jpg");
+	/* background-image: url("../img/innerbanner.jpg"); */
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	min-height: 225px;
 	position: relative;
+}
+
+.breadcrumb-area.local-land-management {
+	background-image: url("../img/banner/laandrights.jpg");
 }
 
 .breadcrumb-area .breadcrumb-content {

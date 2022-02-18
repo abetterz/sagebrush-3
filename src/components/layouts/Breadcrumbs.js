@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Breadcrumbs extends Component {
     render() {
         return (
-            <div className="breadcrumb-area">
+            <div className={`breadcrumb-area ${this.props.breadcrumb.classname}`}>
                 <div className="overlay overlay-bg" />
                 <div className="container">
                     <div className="breadcrumb-content">

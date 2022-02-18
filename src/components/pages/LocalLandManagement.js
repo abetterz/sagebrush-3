@@ -16,7 +16,7 @@ class LocalLandManagement extends Component {
                 </MetaTags>
                 <Topbar />
                 <Header />
-                <Breadcrumbs breadcrumb={{ pagename: "Local Land Management" }} />
+                <Breadcrumbs breadcrumb={{ pagename: "Local Land Management", classname: "local-land-management" }} />
                 <div className="container">
                     <div className="row my-5">
                         <h3 className="header-title align-center mb-20">
