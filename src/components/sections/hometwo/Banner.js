@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import video from "../../../assets/img/video-bg.mp4";
-import bannerLogo from "../../../assets/img/SBR_Vector.svg";
+import bannerLogo from "../../../assets/img/banner_logo.png";
 
 class Banner extends Component {
   render() {
