@@ -3383,7 +3383,6 @@ footer .footer-links .contact-info li a span {
 }
 
 .breadcrumb-area {
-	/* background-image: url("../img/innerbanner.jpg"); */
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -6094,7 +6093,7 @@ footer .footer-links .contact-info li a span {
 	position: relative;
 	z-index: 1;
 	opacity: 0.9;
-	background-image: url(../img/footer-bg.png);
+	background-image: url(../img/communityphoto.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

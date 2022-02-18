@@ -1,9 +1,14 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-// import video from "../../../assets/img/video-bg-1.mp4";
+
+import video from "../../../assets/img/video-bg.mp4";
+import bannerLogo from "../../../assets/img/SBR_Vector.svg";
 
 class Banner extends Component {
   render() {
+    const bannerLogoStyle = {
+
+    };
     return (
       <section className=" p-relative">
         <div className="container-fluid no-padding">
@@ -16,7 +21,7 @@ class Banner extends Component {
                   muted="muted"
                   loop="loop"
                 >
-                  <source src="assets/img/video-bg.mp4?ver=1" type="video/mp4" />
+                  <source src={video} type="video/mp4" />
                 </video>
                 <div className="overlay overlay-bg-dark-2" />
               </div>
@@ -25,15 +30,12 @@ class Banner extends Component {
                   <div className="row justify-content-center">
                     <div className="col-lg-8 align-self-center">
                       <div className="right-side-content text-center">
-                        <h5 className="text-white">Around the world.</h5>
-                        <h1 className="text-white fw-600 fs-60">
-                          Help Us Make A Diffrence In This World
-                        </h1>
+                        <img src={bannerLogo} style={bannerLogoStyle} className="image-fit mb-5" alt="square-logo" />
                         <p className="text-white fw-400">
-                          Gray eel-catfish longnose whiptail catfish smalleye
-                          squaretail queen danio unicorn fish shortnose greeneye
-                          fusilier fish silver carp nibbler sharksucker tench
-                          lookdown catfishf
+                          Challenging modern day politics to restore our great nation's values and pioneering spirit.
+                        </p>
+                        <p className="text-white fw-400">
+                          Join us in making a difference.
                         </p>
                         <Link
                           to="/shop-left"

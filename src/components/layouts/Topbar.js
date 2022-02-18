@@ -1,10 +1,21 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import squareLogo from "../../assets/img/SquareLogoSBR_Vector.svg";
 
 class Topbar extends Component {
   render() {
+    const squareLogoStyle = {
+      position: 'absolute',
+      width: '40px',
+      height: '40px',
+      left: '20px',
+      top: '4px'
+    }
     return (
       <div className="top-header">
+        <Link to="/">
+          <img src={squareLogo} style={squareLogoStyle} className="image-fit" alt="square-logo" />
+        </Link>
         <div className="container-fluid custom-container">
           <div className="row">
             <div className="col-md-6">
