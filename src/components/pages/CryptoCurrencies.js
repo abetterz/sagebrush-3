@@ -16,7 +16,7 @@ class CryptoCurrencies extends Component {
                 </MetaTags>
                 <Topbar />
                 <Header />
-                <Breadcrumbs breadcrumb={{ pagename: "Crypto Currencies" }} />
+                <Breadcrumbs breadcrumb={{ pagename: "Crypto Currencies", classname: "crypto-currencies" }} />
                 <div className="container">
                     <div className="row my-5">
                         <h3 className="header-title align-center mb-20">

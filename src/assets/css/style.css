@@ -3395,6 +3395,22 @@ footer .footer-links .contact-info li a span {
 	background-image: url("../img/banner/laandrights.jpg");
 }
 
+.breadcrumb-area.crypto-currencies {
+	background-image: url("../img/banner/cryptopage.jpg");
+}
+
+.breadcrumb-area.american-industry {
+	background-image: url("../img/banner/trade.jpg");
+}
+
+.breadcrumb-area.agriculture-food-security {
+	background-image: url("../img/banner/WheatField.jpg");
+}
+
+.breadcrumb-area.chinese-aggression {
+	background-image: url("../img/banner/China_Aggression.jpg");
+}
+
 .breadcrumb-area .breadcrumb-content {
 	position: absolute;
 	left: 50%;
