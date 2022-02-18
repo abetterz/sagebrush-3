@@ -10,22 +10,22 @@ class Blogpost extends Component {
                     <div className="row">
                         <div className="col-12">
                             <div className="section-header-left title">
-                                <h3 className="text-light-black header-title">Our Latest News</h3>
+                                <h3 className="text-light-black header-title">Our Blog</h3>
                                 <span className="fs-16"><Link to="/blog-left">See All</Link></span>
                             </div>
                         </div>
-                        {blogpost.slice(0,4).map((item, i) => (
+                        {blogpost.slice(0, 4).map((item, i) => (
                             <div key={i} className="col-xl-3 col-lg-3 col-md-6">
                                 <article className="blog-item blog-item-box">
                                     <div className="blog-item-img">
                                         <img className="blog-img" src={item.img} alt="img" />
-                                        <ul className="blog-item-badge">
+                                        <ul className="blog-item-badge" style={{ display: 'none' }}>
                                             {item.tags.slice(0, 2).map((tag, i) => (
                                                 <li key={i}><Link to="/blog-details">{tag.name}</Link> </li>
                                             ))}
                                         </ul>
                                     </div>
-                                    <div className="blog-item-content">
+                                    <div className="blog-item-content" style={{ display: 'none' }}>
                                         <h5 className="blog-item-title"><Link to="/blog-details">{item.title}</Link></h5>
                                         <p>{item.text}</p>
                                         <div className="blog-item-details">
