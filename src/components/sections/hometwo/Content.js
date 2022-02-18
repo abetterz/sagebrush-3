@@ -23,7 +23,7 @@ class Content extends Component {
                 {/* <section className="section-padding our-product">
                     <Latestproduct />
                 </section> */}
-                <Advertise />
+                {/* <Advertise /> */}
                 <Donation />
                 <Campaign />
                 <Testimonials />
