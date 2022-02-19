@@ -38,7 +38,7 @@ class Bestseller extends Component {
                     <div className="row">
                         <div className="col-12">
                             <div className="section-header-left title">
-                                <h3 className="text-light-black header-title">Help Us Fund Our Campaign</h3>
+                                <h3 className="text-light-black header-title">Support Our Cause</h3>
                                 <span className="fs-16"><Link to="/order-details">See All Bestseller</Link></span>
                             </div>
                         </div>
@@ -46,9 +46,9 @@ class Bestseller extends Component {
                             <div key={i} className="col-xl col-lg-4 col-md-6 col-sm-6">
                                 <div className="product-box mb-md-20">
                                     <div className="product-img">
-                                        <Link to="/shop-details">
+                                        <a href='https://sagebrush-rebellion.myshopify.com/'>
                                             <img src={item.img} className="img-fluid full-width" alt="product-img" />
-                                        </Link>
+                                        </a>
                                         <div className="product-badge">
                                             {
                                                 item.veg === true ? <div className="product-label new">
@@ -79,7 +79,7 @@ class Bestseller extends Component {
                                         </div>
                                     </div>
                                     <div className="product-caption text-center">
-                                        <div className="product-status">
+                                        <div className="product-status" style={{ display: 'none' }}>
                                             <ul className="product-raised">
                                                 <li><strong>Sold:</strong> {item.soldprice}</li>
                                                 <li><strong>Goal:</strong><span className="text-highlight"> {item.goalprice}</span></li>
