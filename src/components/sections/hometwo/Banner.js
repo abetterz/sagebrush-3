@@ -16,10 +16,10 @@ class Banner extends Component {
             <div className="col-md-12">
               <div className="main-banner video-banner">
                 <video
-                  playsInline="playsinline"
                   autoPlay="autoplay"
-                  muted="muted"
                   loop="loop"
+                  playsInline="playsinline"
+                  muted="muted"
                 >
                   <source src={video} type="video/mp4" />
                 </video>
@@ -53,7 +53,7 @@ class Banner extends Component {
             </div>
           </div>
         </div>
-      </section>
+      </section >
     );
   }
 }

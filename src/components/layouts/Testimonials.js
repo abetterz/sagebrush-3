@@ -4,7 +4,7 @@ import SwiperCore, { Navigation } from 'swiper';
 
 const testimonials = [
     { img: "assets/img/testimonial/testimonial1-teddy.jpg", text: "Here is your country. Cherish these natural wonders, cherish the natural resources, cherish the history and romance as a sacred heritage, for your children and your children's children. Do not let selfish men or greedy interests skin your country of its beautry, its riches or its romance.", name: "Theodore Roosevelt", designation: "President" },
-    { img: "assets/img/testimonial/testimonial2.jpg", text: "I like Political and as compared to other company it's polices and customers support is very good easy to reach., also many time they unable to delivered. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisist amet, sed do eiusm.", name: "Anna Wright", designation: "Co-founder" }
+    { img: "assets/img/testimonial/testimonial1-teddy.jpg", text: "Here is your country. Cherish these natural wonders, cherish the natural resources, cherish the history and romance as a sacred heritage, for your children and your children's children. Do not let selfish men or greedy interests skin your country of its beautry, its riches or its romance.", name: "Theodore Roosevelt", designation: "President" }
 ];
 // install Swiper components
 SwiperCore.use([Navigation]);
