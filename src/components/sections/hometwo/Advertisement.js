@@ -10,7 +10,7 @@ class Advertisement extends Component {
                             <div className="advertisement-text text-center mx-center-width">
                                 <h3 className="text-white"><span>We Are In A Mission</span> To Help Helpless</h3>
                                 <p className="text-white">There are many variations of passages of Lorem Ipsum available, but the majority
-            have suffered alteration in some form, by injected humour.</p>
+                                    have suffered alteration in some form, by injected humour.</p>
                             </div>
                         </div>
                     </div>
