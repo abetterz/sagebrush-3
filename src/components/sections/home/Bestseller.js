@@ -49,7 +49,7 @@ class Bestseller extends Component {
                                         <a href='https://sagebrush-rebellion.myshopify.com/'>
                                             <img src={item.img} className="img-fluid full-width" alt="product-img" />
                                         </a>
-                                        <div className="product-badge">
+                                        <div className="product-badge" style={{ display: 'none' }}>
                                             {
                                                 item.veg === true ? <div className="product-label new">
                                                     <span>Album</span>
