@@ -93,6 +93,11 @@ label {
 	padding-left: 8%;
 }
 
+.copyright .custom-container {
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
 .overlay {
 	position: absolute;
 	top: 0;
