@@ -150,15 +150,6 @@ class Footer extends Component {
                 <div className="footer-links">
                   <h6 className="text-custom-white">Contact info</h6>
                   <ul className="contact-info">
-                    {/* <li>
-                      <Link to="#" className="text-white">
-                        {" "}
-                        <span>
-                          <i className="pe-7s-timer" />
-                        </span>
-                        Monday - Friday: 9:00 AM - 06:00 PM
-                      </Link>
-                    </li> */}
                     <li>
                       <Link to="#" className="text-white">
                         {" "}
@@ -177,15 +168,6 @@ class Footer extends Component {
                         (+348) 123 456 7890
                       </Link>
                     </li>
-                    {/* <li>
-                      <Link to="#" className="text-white">
-                        {" "}
-                        <span>
-                          <i className="pe-7s-map-marker" />
-                        </span>
-                        (+348) 123 456 7890
-                      </Link>
-                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -195,7 +177,7 @@ class Footer extends Component {
         <div className="copyright bg-black">
           <div className="container-fluid custom-container">
             <div className="row">
-              <div className="col-lg-4">
+              <div className="col-lg-3">
                 <div className="payment-logo mb-md-20">
                   <div className="payemt-icon">
                     <ul className="contact-info list-inline d-flex">
@@ -222,7 +204,7 @@ class Footer extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 text-center medewithlove align-self-center">
+              <div className="col-lg-6 text-center medewithlove align-self-center d-flex justify-content-between">
                 <ul className="list-inline">
                   <li className="list-inline-item">
                     <Link to="#">
@@ -250,8 +232,11 @@ class Footer extends Component {
                     </Link>{" "}
                   </li>
                 </ul>
+                <span className="text-white">
+                  Paid for by Sagebrush Rebellion PAC. Not authorized by any candidate or candidate's committee.
+                </span>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-3">
                 <div className="copyright-text">
                   {" "}
                   <span className="text-white">
