@@ -2724,6 +2724,7 @@ span.type-tag {
 	bottom: 0;
 	top: 0;
 	background: linear-gradient(to right, rgb(186, 28, 36) 0%, rgba(186, 28, 36, 0.7) 30%, rgba(20, 20, 51, 0.7) 60%, rgb(20, 20, 51) 100%);
+	background: unset;
 }
 
 .advertisement-banner-2:before {
