@@ -14,7 +14,6 @@ class Home extends Component {
           <meta name="description" content="#" />
         </MetaTags>
         <Topbar />
-        <Header />
         <Content />
         <Footer />
       </Fragment>

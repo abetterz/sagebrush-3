@@ -12,7 +12,6 @@ class Homefour extends Component {
           <title>Sagebrush | Homepage</title>
           <meta name="description" content="#" />
         </MetaTags>
-        <Header />
         <Content />
         <Footer />
       </Fragment>

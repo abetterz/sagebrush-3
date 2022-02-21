@@ -14,8 +14,7 @@ class Donationdetail extends Component {
           <title>Sagebrush | Donation Details</title>
           <meta name="description" content="#" />
         </MetaTags>
-        <Topbar />
-        <Header />
+        <Topbar />\
         <Breadcrumbs breadcrumb={{ pagename: "Donation Details" }} />
         <Content />
         <Footer />

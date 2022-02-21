@@ -15,7 +15,6 @@ class AgricultureAndFoodSecurity extends Component {
                     <meta name="description" content="#" />
                 </MetaTags>
                 <Topbar />
-                <Header />
                 <Breadcrumbs breadcrumb={{ pagename: "Agriculture And Food Security", classname: "agriculture-food-security" }} />
                 <div className="container">
                     <div className="row my-5">

@@ -15,7 +15,6 @@ class Shopleft extends Component {
           <meta name="description" content="#" />
         </MetaTags>
         <Topbar />
-        <Header />
         <Breadcrumbs breadcrumb={{ pagename: "Shop" }} />
         <Content />
         <Footer />

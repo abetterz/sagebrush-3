@@ -15,7 +15,6 @@ class About extends Component {
           <meta name="description" content="#" />
         </MetaTags>
         <Topbar />
-        <Header />
         <Breadcrumbs breadcrumb={{ pagename: "About Us" }} />
         <Content />
         <Footer />

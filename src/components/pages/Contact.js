@@ -15,7 +15,6 @@ class Contact extends Component {
           <meta name="description" content="#" />
         </MetaTags>
         <Topbar />
-        <Header />
         <Breadcrumbs breadcrumb={{ pagename: "Contact Us" }} />
         <Content />
         <Footer />

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Menu from "./Menu";
+import classNames from "classnames";
 import squareLogo from "../../assets/img/SquareLogoSBR_Vector.svg";
 
 class Topbar extends Component {
@@ -18,7 +20,7 @@ class Topbar extends Component {
         </Link>
         <div className="container-fluid custom-container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-4">
               <div className="top-left">
                 <ul className="top-info">
                   <li>
@@ -34,7 +36,14 @@ class Topbar extends Component {
                 </ul>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-4">
+              <div
+                className="main-navigation"
+              >
+                <Menu />
+              </div>
+            </div>
+            <div className="col-md-4">
               <div className="top-right">
                 <ul className="list-inline">
                   <li className="list-inline-item">

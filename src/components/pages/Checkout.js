@@ -15,7 +15,6 @@ class Checkout extends Component {
           <meta name="description" content="#" />
         </MetaTags>
         <Topbar />
-        <Header />
         <Breadcrumbs breadcrumb={{ pagename: "Checkout" }} />
         <Content />
         <Footer />

@@ -15,7 +15,6 @@ class Order extends Component {
           <meta name="description" content="#" />
         </MetaTags>
         <Topbar />
-        <Header />
         <Breadcrumbs breadcrumb={{ pagename: "Order Details" }} />
         <Content />
         <Footer />

@@ -15,7 +15,6 @@ class LocalLandManagement extends Component {
                     <meta name="description" content="#" />
                 </MetaTags>
                 <Topbar />
-                <Header />
                 <Breadcrumbs breadcrumb={{ pagename: "Local Land Management", classname: "local-land-management" }} />
                 <div className="container">
                     <div className="row my-5">

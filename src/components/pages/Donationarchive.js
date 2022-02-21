@@ -15,7 +15,6 @@ class Donationarchive extends Component {
           <meta name="description" content="#" />
         </MetaTags>
         <Topbar />
-        <Header />
         <Breadcrumbs breadcrumb={{ pagename: "Donation Grid" }} />
         <Content />
         <Footer />

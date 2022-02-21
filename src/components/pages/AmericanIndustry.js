@@ -15,7 +15,6 @@ class AmericanIndustry extends Component {
                     <meta name="description" content="#" />
                 </MetaTags>
                 <Topbar />
-                <Header />
                 <Breadcrumbs breadcrumb={{ pagename: "American Industry", classname: "american-industry" }} />
                 <div className="container">
                     <div className="row my-5">

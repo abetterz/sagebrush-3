@@ -15,7 +15,6 @@ class Blogdetail extends Component {
           <meta name="description" content="#" />
         </MetaTags>
         <Topbar />
-        <Header />
         <Breadcrumbs breadcrumb={{ pagename: "Blog Detail" }} />
         <Content />
         <Footer />

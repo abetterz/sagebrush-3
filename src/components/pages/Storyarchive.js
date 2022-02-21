@@ -15,7 +15,6 @@ class Storyarchive extends Component {
           <meta name="description" content="#" />
         </MetaTags>
         <Topbar />
-        <Header />
         <Breadcrumbs breadcrumb={{ pagename: "Story Grid" }} />
         <Content />
         <Footer />

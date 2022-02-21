@@ -15,7 +15,6 @@ class Wishlist extends Component {
           <meta name="description" content="#" />
         </MetaTags>
         <Topbar />
-        <Header />
         <Breadcrumbs breadcrumb={{ pagename: "Wishlist" }} />
         <Content />
         <Footer />

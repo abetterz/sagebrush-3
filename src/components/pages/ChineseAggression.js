@@ -15,7 +15,6 @@ class ChineseAggression extends Component {
                     <meta name="description" content="#" />
                 </MetaTags>
                 <Topbar />
-                <Header />
                 <Breadcrumbs breadcrumb={{ pagename: "Chinese Aggression", classname: "chinese-aggression" }} />
                 <div className="container">
                     <div className="row my-5">

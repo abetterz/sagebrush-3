@@ -1538,6 +1538,7 @@ span.type-tag {
 .main-navigation>nav>.main-menu {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .main-navigation>nav>.main-menu>.menu-item {
@@ -2919,7 +2920,7 @@ span.type-tag {
 }
 
 .text-light-white {
-	color: #000000;
+	color: #ffffff;
 }
 
 .text-custom-red {
