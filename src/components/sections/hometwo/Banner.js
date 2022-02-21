@@ -15,6 +15,7 @@ class Banner extends Component {
           <div className="row no-gutters">
             <div className="col-md-12">
               <div className="main-banner video-banner">
+                <iframe src={video} type="video/mp4" allow="autoplay" style={{ display: "none" }}></iframe>
                 <video
                   autoPlay="autoplay"
                   loop="loop"
