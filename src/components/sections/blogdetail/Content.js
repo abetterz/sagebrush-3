@@ -19,7 +19,7 @@ class Content extends Component {
                                     <div className="post-wrapper mb-xl-20">
                                         <div className="blog-item-img">
                                             <img src={details} className="img-fluid full-width" alt="#" />
-                                            <ul className="blog-item-badge">
+                                            <ul className="blog-item-badge" style={{ display: 'none' }}>
                                                 <li><Link to="/blog-details">Water</Link> </li>
                                                 <li><Link to="/blog-details">Health</Link></li>
                                             </ul>
@@ -35,8 +35,8 @@ class Content extends Component {
                                                             <img src={process.env.PUBLIC_URL + "/assets/img/blog/user1.jpg"} alt="" />
                                                         </span>
                                                         <div>
-                                                        <Link to="/blog-details"> Admin</Link>
-                                                        <Link to="/blog-details"> 25 January, 2022</Link>
+                                                            <Link to="/blog-details"> Admin</Link>
+                                                            <Link to="/blog-details"> 25 January, 2022</Link>
                                                         </div>
                                                     </p>
                                                 </div>

@@ -16,7 +16,7 @@ class Blogright extends Component {
         </MetaTags>
         <Topbar />
         <Header />
-        <Breadcrumbs breadcrumb={{ pagename: "Blog" }} />
+        <Breadcrumbs breadcrumb={{ pagename: "Welcome To Our Blog!" }} />
         <Content />
         <Footer />
       </Fragment>

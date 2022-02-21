@@ -7,7 +7,7 @@ import blogpost from '../../../data/blog/blogpost.json';
 
 class Content extends Component {
     render() {
-        return ( 
+        return (
             <Fragment>
                 <section className="our-articles bg-light-theme section-padding ">
                     <div className="container-fluid custom-container">
@@ -23,7 +23,7 @@ class Content extends Component {
                                                 <article className="blog-item blog-item-box">
                                                     <div className="blog-item-img">
                                                         <img className="blog-img" src={item.img} alt="img" />
-                                                        <ul className="blog-item-badge">
+                                                        <ul className="blog-item-badge" style={{ display: 'none' }}>
                                                             {item.tags.slice(0, 2).map((tag, i) => (
                                                                 <li key={i}><Link to="/blog-details">{tag.name}</Link> </li>
                                                             ))}

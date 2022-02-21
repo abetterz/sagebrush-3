@@ -11,7 +11,7 @@ class Blogsidebar extends Component {
                 <div className="main-box padding-20 side-blog mb-xl-20">
                     <h5 className="text-light-black">Popular Post</h5>
                     {recentpost.map((item, i) => (
-                        <article key={i} className="side-post pb-xl-20 mb-xl-20 u-line">
+                        <article key={i} className="side-post pb-xl-20 mb-xl-20 u-line" style={{ display: 'none' }}>
                             <div className="thumb-img">
                                 <Link to="/blog-details">
                                     <img src={item.img} alt="thumb-img" />
@@ -48,7 +48,7 @@ class Blogsidebar extends Component {
                 </div>
             </div>
         );
-    } 
+    }
 }
 
 export default Blogsidebar;

@@ -18,15 +18,16 @@ class Content extends Component {
                                         {blogpost.map((item, i) => (
                                             <div key={i} className="col-xl-4 col-lg-6 col-md-6">
                                                 <article className="blog-item blog-item-box">
+                                                    <img className="blog-img" src={item.img} alt="img" style={{ height: 'auto', zIndex: 1 }} />
                                                     <div className="blog-item-img">
-                                                        <img className="blog-img" src={item.img} alt="img" />
-                                                        <ul className="blog-item-badge">
+                                                        <img className="blog-img" src={item.img} alt="img" style={{ display: 'none' }} />
+                                                        <ul className="blog-item-badge" style={{ display: 'none' }}>
                                                             {item.tags.slice(0, 2).map((tag, i) => (
                                                                 <li key={i}><Link to="/blog-details">{tag.name}</Link> </li>
                                                             ))}
                                                         </ul>
                                                     </div>
-                                                    <div className="blog-item-content">
+                                                    <div className="blog-item-content" style={{ display: 'none' }}>
                                                         <h5 className="blog-item-title"><Link to="/blog-details">{item.title}</Link></h5>
                                                         <p>{item.text}</p>
                                                         <div className="blog-item-details">
@@ -41,7 +42,7 @@ class Content extends Component {
                                         ))}
                                     </div>
                                 </div>
-                                <Pagination />
+                                {/* <Pagination /> */}
                             </div>
                             <aside className="col-xl-3 col-lg-4">
                                 <Sidebar />

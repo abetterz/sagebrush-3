@@ -1,26 +1,8 @@
 [
     {
-        "id":1,
+        "id": 1,
         "img": "assets/img/blog/sblog1.jpg",
         "title": "Building the Party of Tomorrow",
         "postdate": "06 Jan 2022"
-    },
-    {
-        "id":2,
-        "img": "assets/img/blog/sblog2.jpg",
-        "title": "Real Talk: Tax Reform, Criminal Justice",
-        "postdate": "02 Feb 2022"
-    },
-    {
-        "id":3,
-        "img": "assets/img/blog/sblog3.jpg",
-        "title": "Party Leaders Stand Together",
-        "postdate": "05 Jan 2022"
-    },
-    {
-        "id":4,
-        "img": "assets/img/blog/sblog4.jpg",
-        "title": "Supporters Overwhelm Campaign Event",
-        "postdate": "21 Mar 2022"
     }
 ]
