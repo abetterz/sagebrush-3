@@ -11,7 +11,7 @@ class Blogpost extends Component {
                         <div className="col-12">
                             <div className="section-header-left title">
                                 <h3 className="text-light-black header-title">Our Blog</h3>
-                                <span className="fs-16"><Link to="/blog-left">See All</Link></span>
+                                <span className="fs-16"><Link to="/blog">See All</Link></span>
                             </div>
                         </div>
                         {blogpost.slice(0, 4).map((item, i) => (
