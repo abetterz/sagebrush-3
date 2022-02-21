@@ -39,11 +39,11 @@ class Bestseller extends Component {
                         <div className="col-12">
                             <div className="section-header-left title">
                                 <h3 className="text-light-black header-title">Support Our Cause</h3>
-                                <span className="fs-16"><Link to="/order-details">See All Bestseller</Link></span>
+                                <span className="fs-16"><a href='https://sagebrush-rebellion.myshopify.com/' target='_blank'>See All Bestseller</a></span>
                             </div>
                         </div>
                         {shoppost.slice(0, 5).map((item, i) => (
-                            <div key={i} className="col-xl col-lg-4 col-md-6 col-sm-6">
+                            <div key={i} className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                                 <div className="product-box mb-md-20">
                                     <div className="product-img">
                                         <a href='https://sagebrush-rebellion.myshopify.com/'>

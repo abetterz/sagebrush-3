@@ -2236,9 +2236,9 @@ span.type-tag {
 }
 
 .product-box:hover .cart-hover {
-	bottom: 0px;
+	/* bottom: 0px;
 	opacity: 1;
-	visibility: visible;
+	visibility: visible; */
 }
 
 .btn-cart {
