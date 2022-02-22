@@ -2,6 +2,7 @@
     {
         "id": 1,
         "img": "assets/img/shop/SBR_Mousepad.jpg",
+        "link": "https://sagebrush-rebellion.myshopify.com/products/sbr-black-mouse-pad",
         "soldprice": 54732,
         "goalprice": 85990,
         "title": "SBR Black Mousepad",
@@ -14,6 +15,7 @@
     {
         "id": 2,
         "img": "assets/img/shop/LetsGoBag.jpg",
+        "link": "https://sagebrush-rebellion.myshopify.com/products/white-lets-go-brandin-drawstring-bag",
         "soldprice": 13242,
         "goalprice": 67897,
         "title": "White Let's Go Brandin Drawstring Bag",
@@ -26,6 +28,7 @@
     {
         "id": 3,
         "img": "assets/img/shop/LongWhiteSBR.jpg",
+        "link": "https://sagebrush-rebellion.myshopify.com/products/mens-sbr-white-long-sleeve-crew-tee",
         "soldprice": 34566,
         "goalprice": 54876,
         "title": "Men's SBR White Long Sleeve Crew Tee",
@@ -38,6 +41,7 @@
     {
         "id": 4,
         "img": "assets/img/shop/WhitecupSBR.jpg",
+        "link": "https://sagebrush-rebellion.myshopify.com/products/white-lets-go-brandin-mug-11oz",
         "soldprice": 32611,
         "goalprice": 45974,
         "title": "White Let's Go Brandin Mug 11oz",
@@ -50,6 +54,7 @@
     {
         "id": 5,
         "img": "assets/img/shop/LetsGoBlackShirt.jpg",
+        "link": "https://sagebrush-rebellion.myshopify.com/products/womens-lets-go-brandin-softstyle-tee-1",
         "soldprice": 86322,
         "goalprice": 98453,
         "title": "Women's Let's Go Brandin Softstyle Tee",
@@ -57,138 +62,6 @@
         "price": 19.99,
         "veg": false,
         "discount": "",
-        "meat": true
-    },
-    {
-        "id": 6,
-        "img": "assets/img/shop/female_frntwht_shirt.jpg",
-        "soldprice": 42521,
-        "goalprice": 65943,
-        "title": "Let's Go Brandin t-shirt",
-        "discountprice": 90.00,
-        "price": 29.99,
-        "veg": true,
-        "discount": "",
-        "meat": false
-    },
-    {
-        "id": 7,
-        "img": "assets/img/shop/backshirt.jpg",
-        "soldprice": 13866,
-        "goalprice": 23964,
-        "title": "Let's Go Brandin t-shirt",
-        "discountprice": 90.00,
-        "price": 29.99,
-        "veg": true,
-        "discount": "",
-        "meat": false
-    },
-    {
-        "id": 8,
-        "img": "assets/img/shop/male_whtfront_shirt.jpg",
-        "soldprice": 63732,
-        "goalprice": 87493,
-        "title": "Let's Go Brandin t-shirt",
-        "discountprice": 90.00,
-        "price": 29.99,
-        "veg": true,
-        "discount": 25,
-        "meat": false
-    },
-    {
-        "id": 9,
-        "img": "assets/img/shop/Female_blkshirt_font.jpg",
-        "soldprice": 56473,
-        "goalprice": 74522,
-        "title": "Let's Go Brandin t-shirt",
-        "discountprice": 90.00,
-        "price": 29.99,
-        "veg": true,
-        "discount": "",
-        "meat": true
-    },
-    {
-        "id": 10,
-        "img": "assets/img/shop/female_frntwht_shirt.jpg",
-        "soldprice": 34226,
-        "goalprice": 73922,
-        "title": "Let's Go Brandin t-shirt",
-        "discountprice": 90.00,
-        "price": 29.99,
-        "veg": true,
-        "discount": "",
-        "meat": false
-    },
-    {
-        "id": 11,
-        "img": "assets/img/shop/backshirt.jpg",
-        "soldprice": 42622,
-        "goalprice": 49333,
-        "title": "Let's Go Brandin t-shirt",
-        "discountprice": 90.00,
-        "price": 29.99,
-        "veg": true,
-        "discount": "",
-        "meat": true
-    },
-    {
-        "id": 12,
-        "img": "assets/img/shop/male_whtfront_shirt.jpg",
-        "soldprice": 32511,
-        "goalprice": 50000,
-        "title": "Let's Go Brandin t-shirt",
-        "discountprice": 90.00,
-        "price": 29.99,
-        "veg": true,
-        "discount": "",
-        "meat": false
-    },
-    {
-        "id": 13,
-        "img": "assets/img/shop/Female_blkshirt_font.jpg",
-        "soldprice": 42672,
-        "goalprice": 83463,
-        "title": "Let's Go Brandin t-shirt",
-        "discountprice": 90.00,
-        "price": 29.99,
-        "veg": false,
-        "discount": "",
-        "meat": true
-    },
-    {
-        "id": 14,
-        "img": "assets/img/shop/female_frntwht_shirt.jpg",
-        "soldprice": 28123,
-        "goalprice": 75384,
-        "title": "Let's Go Brandin t-shirt",
-        "discountprice": 90.00,
-        "price": 29.99,
-        "veg": true,
-        "discount": "",
-        "meat": false
-    },
-    {
-        "id": 15,
-        "img": "assets/img/shop/backshirt.jpg",
-        "soldprice": 13456,
-        "goalprice": 54934,
-        "title": "Let's Go Brandin t-shirt",
-        "discountprice": 90.00,
-        "price": 29.99,
-        "veg": true,
-        "discount": 25,
-        "meat": false
-    },
-    {
-        "id": 16,
-        "img": "assets/img/shop/male_whtfront_shirt.jpg",
-        "soldprice": 23457,
-        "goalprice": 73943,
-        "title": "Let's Go Brandin t-shirt",
-        "discountprice": 90.00,
-        "price": 29.99,
-        "veg": false,
-        "discount": 25,
         "meat": true
     }
 ]
