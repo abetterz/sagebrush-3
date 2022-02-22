@@ -18,7 +18,7 @@ class Content extends Component {
             <Fragment>
                 <Banner />
                 <About />
-                <Advertisement />
+                {/* <Advertisement /> */}
                 <Community />
                 {/* <section className="section-padding our-product">
                     <Latestproduct />
