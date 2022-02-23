@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import video from "../../../assets/img/video-bg.mp4";
 
 
 class About extends Component {
     render() {
         return (
             <section className="about-section-style-1">
-                <div className="row no-gutters">
+                <div className="row no-gutters bg-custom-primary">
                     <div className="col-lg-6">
-                        <div className="full-height">
-                            <img src="assets/img/home-mission-statement.jpg" alt="img" className="img-fluid full-width full-height" />
+                        <div className="full-height" style={{ lineHeight: 1 }}>
+                            <video controls poster="assets/img/home-mission-statement.jpg" className="img-fluid full-width full-height">
+                                <source src={video} type="video/mp4" />
+                            </video>
+                            {/* <img src="assets/img/home-mission-statement.jpg" alt="img" className="img-fluid full-width full-height" /> */}
                         </div>
                     </div>
-                    <div className="col-lg-6 bg-custom-primary">
+                    <div className="col-lg-6">
                         <div className="about-section-container">
                             <div className="section-header-left pb-0">
                                 <h3 className="header-title text-white mb-20">Mission Statement</h3>
