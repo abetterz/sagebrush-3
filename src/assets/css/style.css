@@ -98,6 +98,14 @@ label {
 	padding-left: 25px;
 }
 
+#vitto .custom-container {
+	padding-right: 25px;
+}
+
+#vitto .row {
+	align-items: center;
+}
+
 .overlay {
 	position: absolute;
 	top: 0;

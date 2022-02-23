@@ -10,8 +10,8 @@ class Topbar extends Component {
       position: 'absolute',
       width: '40px',
       height: '40px',
-      left: '20px',
-      top: '4px'
+      left: '25px',
+      top: '8px'
     }
     return (
       <div className="top-header">
