@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Menu from "./Menu";
 import classNames from "classnames";
-import squareLogo from "../../assets/img/SquareLogoSBR_Vector.svg";
+import squareLogo from "../../assets/img/square_logo.png";
 
 class Topbar extends Component {
   render() {
