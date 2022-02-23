@@ -100,6 +100,7 @@ label {
 
 #vitto .custom-container {
 	padding-right: 25px;
+	padding-left: 100px;
 }
 
 #vitto .row {
@@ -1547,6 +1548,7 @@ span.type-tag {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-left: -75px;
 }
 
 .main-navigation>nav>.main-menu>.menu-item {
