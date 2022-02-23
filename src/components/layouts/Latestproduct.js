@@ -110,7 +110,7 @@ class Latestproduct extends Component {
                                                         item.discount > 0 || item.discount !== '' ? <span className="text-price">${item.price * (100 - item.discount) / 100}</span> : ''
                                                     }
                                                     {
-                                                        <span className="text-price">${item.price}</span>
+                                                        <span className="text-price">${item.price.toFixed(2)}</span>
                                                     }
                                                 </div>
                                             </div>
@@ -173,7 +173,7 @@ class Latestproduct extends Component {
                                                         item.discount > 0 || item.discount !== '' ? <span className="text-price">${item.price * (100 - item.discount) / 100}</span> : ''
                                                     }
                                                     {
-                                                        <span className="text-price">${item.price}</span>
+                                                        <span className="text-price">${item.price.toFixed(2)}</span>
                                                     }
                                                 </div>
                                             </div>
@@ -183,7 +183,7 @@ class Latestproduct extends Component {
                             </div>
                         </Tab.Pane>
                         <Tab.Pane eventKey="mostsaleing">
-                        <div className="row">
+                            <div className="row">
                                 {shoppost.slice(0, 8).map((item, i) => (
                                     <div key={i} className="col-lg-3 col-md-6 col-sm-6">
                                         <div className="product-box mb-md-20">
@@ -233,10 +233,10 @@ class Latestproduct extends Component {
                                                 <h6 className="product-title fw-500 mt-10"><Link to="/shop-details" className="text-color-secondary">{item.title}</Link></h6>
                                                 <div className="product-money mt-10">
                                                     {
-                                                        item.discount > 0 || item.discount !== '' ? <span className="text-price">${item.price * (100 - item.discount) / 100}</span> : ''
+                                                        item.discount > 0 || item.discount !== '' ? <span className="text-price">${item.price.toFixed(2) * (100 - item.discount) / 100}</span> : ''
                                                     }
                                                     {
-                                                        <span className="text-price">${item.price}</span>
+                                                        <span className="text-price">${item.price.toFixed(2)}</span>
                                                     }
                                                 </div>
                                             </div>

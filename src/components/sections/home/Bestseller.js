@@ -94,7 +94,7 @@ class Bestseller extends Component {
                                                 item.discount > 0 || item.discount !== '' ? <span className="text-price">${item.price * (100 - item.discount) / 100}</span> : ''
                                             }
                                             {
-                                                <span className="text-price">${item.price}</span>
+                                                <span className="text-price">${item.price.toFixed(2)}</span>
                                             }
                                         </div>
                                     </div>
