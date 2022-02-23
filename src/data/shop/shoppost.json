@@ -63,5 +63,44 @@
         "veg": false,
         "discount": "",
         "meat": true
+    },
+    {
+        "id": 6,
+        "img": "assets/img/shop/MaleWhiteShortSleeve.jpg",
+        "link": "https://sagebrush-rebellion.myshopify.com/products/mens-lets-go-brandin-cotton-crew-tee",
+        "soldprice": 86322,
+        "goalprice": 98453,
+        "title": "Men's Let's Go Brandin Cotton Crew Tee",
+        "discountprice": 90.00,
+        "price": 19.99,
+        "veg": false,
+        "discount": "",
+        "meat": true
+    },
+    {
+        "id": 7,
+        "img": "assets/img/shop/BLKMaleShortSleeve.jpg",
+        "link": "https://sagebrush-rebellion.myshopify.com/products/mens-lets-go-brandin-cotton-crew-tee-1",
+        "soldprice": 86322,
+        "goalprice": 98453,
+        "title": "Men Grey Shirt short-sleeve",
+        "discountprice": 90.00,
+        "price": 19.99,
+        "veg": false,
+        "discount": "",
+        "meat": true
+    },
+    {
+        "id": 8,
+        "img": "assets/img/shop/BlackCup.jpg",
+        "link": "https://sagebrush-rebellion.myshopify.com/products/black-lets-go-brandin-mug-11oz",
+        "soldprice": 86322,
+        "goalprice": 98453,
+        "title": "Men's Let's Go Brandin Cotton Crew Tee",
+        "discountprice": 90.00,
+        "price": 13.99,
+        "veg": false,
+        "discount": "",
+        "meat": true
     }
 ]
