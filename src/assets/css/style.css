@@ -7398,7 +7398,11 @@ footer .footer-links .contact-info li a span {
 }
 
 .about-section-container {
-	padding: 80px 60px;
+	padding: 48px 60px;
+}
+
+.about-section-container p {
+	font-size: 18px;
 }
 
 .about-section-container .section-header-left .header-title {
