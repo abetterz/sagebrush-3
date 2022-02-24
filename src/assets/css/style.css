@@ -94,16 +94,16 @@ label {
 }
 
 .copyright .custom-container {
-	padding-right: 25px;
-	padding-left: 25px;
+	padding-right: 40px;
+	padding-left: 40px;
 }
 
-#vitto .custom-container {
+.top-header .custom-container {
 	padding-right: 25px;
 	padding-left: 100px;
 }
 
-#vitto .row {
+.top-header .row {
 	align-items: center;
 }
 
@@ -3359,6 +3359,8 @@ footer .footer-links .contact-info li a span {
 	padding: 20px 0;
 	background: #1b1b1b;
 }
+
+.copyright .col-copyright {}
 
 .copyright .payment-logo {
 	display: flex;

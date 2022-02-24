@@ -52,100 +52,8 @@ class Footer extends Component {
                       <a className="btn-solid btn-solid-white" href="/">DONATE</a>
                     </li>
                   </ul>
-                  {/* <h6 className="text-custom-white">Get to Know Us</h6>
-                  <ul>
-                    <li>
-                      <Link to="/about" className="text-white fw-500">
-                        About Us
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/blog-left" className="text-white fw-500">
-                        Blog
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#" className="text-white fw-500">
-                        Socialize
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/" className="text-white fw-500">
-                        Ecom
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#" className="text-white fw-500">
-                        Perks
-                      </Link>
-                    </li>
-                  </ul> */}
                 </div>
               </div>
-              {/* <div className="col-xl col-lg-4 col-md-4 col-sm-6">
-                <div className="footer-links">
-                  <h6 className="text-custom-white">Let Us Help You</h6>
-                  <ul>
-                    <li>
-                      <Link to="#" className="text-white fw-500">
-                        Account Details
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/order-details" className="text-white fw-500">
-                        Order History
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#" className="text-white fw-500">
-                        Find Product
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/login" className="text-white fw-500">
-                        Login
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#" className="text-white fw-500">
-                        Track order
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-xl col-lg-4 col-md-4 col-sm-6">
-                <div className="footer-links">
-                  <h6 className="text-custom-white">Get to Know Us</h6>
-                  <ul>
-                    <li>
-                      <Link to="/about" className="text-white fw-500">
-                        About Us
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/blog-details" className="text-white fw-500">
-                        Blog
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#" className="text-white fw-500">
-                        Socialize
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/" className="text-white fw-500">
-                        Ecom
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#" className="text-white fw-500">
-                        Perks
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div> */}
               <div className="col-xl col-lg-4 col-md-4 col-sm-6">
                 <div className="footer-links">
                   <h6 className="text-custom-white">Contact info</h6>
@@ -174,7 +82,7 @@ class Footer extends Component {
             </div>
           </div>
         </footer>
-        <div className="copyright bg-black">
+        <div className="copyright bg-black d-none">
           <div className="container-fluid custom-container">
             <div className="row">
               <div className="col-lg-3">
@@ -237,6 +145,87 @@ class Footer extends Component {
                 </span>
               </div>
               <div className="col-lg-3">
+                <div className="copyright-text">
+                  {" "}
+                  <span className="text-white">
+                    ©{" "}
+                    <Link to="#" className="text-white">
+                      Sagebrush Rebellion
+                    </Link>{" "}
+                    - 2022 | All Right Reserved
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="copyright bg-black">
+          <div className="container-fluid custom-container">
+            <div className="row align-self-center d-flex justify-content-between">
+              <div className="col-copyright">
+                <div className="payment-logo mb-md-20">
+                  <div className="payemt-icon">
+                    <ul className="contact-info list-inline d-flex">
+                      <li>
+                        <Link to="#" className="text-white mr-2">
+                          {" "}
+                          <span>
+                            <i className="pe-7s-mail" />
+                          </span>
+                          info@sagebrush.com
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="#" className="text-white">
+                          {" "}
+                          <span>
+                            <i className="fas fa-phone-alt" />
+                          </span>
+                          +1 863 123-4568
+                        </Link>
+                      </li>
+                    </ul>
+                    {/* <img src={footerimg} alt="#" /> */}
+                  </div>
+                </div>
+              </div>
+              <div className="col-copyright text-center medewithlove align-self-center d-flex justify-content-between">
+                <ul className="list-inline">
+                  <li className="list-inline-item">
+                    <Link to="#">
+                      <i className="fab fa-facebook-square" />
+                    </Link>{" "}
+                  </li>
+                  <li className="list-inline-item">
+                    <Link to="#">
+                      <i className="fab fa-twitter-square" />
+                    </Link>{" "}
+                  </li>
+                  <li className="list-inline-item">
+                    <Link to="#">
+                      <i className="fab fa-instagram" />
+                    </Link>{" "}
+                  </li>
+                  <li className="list-inline-item">
+                    <Link to="#">
+                      <i className="fab fa-linkedin" />
+                    </Link>{" "}
+                  </li>
+                  <li className="list-inline-item">
+                    <Link to="#">
+                      <i className="fab fa-youtube" />
+                    </Link>{" "}
+                  </li>
+                </ul>
+              </div>
+              <div className="col-copyright text-center medewithlove align-self-center d-flex justify-content-between">
+                <span className="text-white">
+                  Paid for by Sagebrush Rebellion PAC. Not authorized by any candidate or candidate's committee.
+                </span>
+              </div>
+              <div className="col-copyright">
                 <div className="copyright-text">
                   {" "}
                   <span className="text-white">
