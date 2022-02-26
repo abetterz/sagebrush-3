@@ -1477,11 +1477,15 @@ span.type-tag {
 	margin-right: 5px;
 }
 
-.top-right .top-btn {
+.top-btn {
 	margin-left: 15px;
 }
 
-.top-right .top-btn {
+.banner-btn.top-btn {
+	float: none;
+}
+
+.top-btn {
 	float: right;
 	color: #ffffff;
 	padding: 10px 19px 12px 19px;

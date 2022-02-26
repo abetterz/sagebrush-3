@@ -32,7 +32,10 @@ class Banner extends Component {
                     <div className="col-lg-8 align-self-center">
                       <div className="right-side-content text-center">
                         <img src={bannerLogo} style={bannerLogoStyle} className="image-fit mb-5" alt="square-logo" />
-                        <div className="border">
+                        <Link to="#" className="top-btn banner-btn">
+                          DONATE TODAY
+                        </Link>
+                        <div className="border d-none">
                           <p className="text-white fw-400 font-georgia-regular">
                             Challenging modern day politics to restore our great nation's values and pioneering spirit.
                           </p>
