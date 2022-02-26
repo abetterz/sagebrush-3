@@ -4,7 +4,7 @@ import SwiperCore, { Navigation } from 'swiper';
 
 const testimonials = [
     { img: "assets/img/testimonial/testimonial1-teddy.jpg", text: "Here is your country. Cherish these natural wonders, cherish the natural resources, cherish the history and romance as a sacred heritage, for your children and your children's children. Do not let selfish men or greedy interests skin your country of its beautry, its riches or its romance.", name: "Theodore Roosevelt", designation: "President" },
-    { img: "assets/img/testimonial/testimonial1-teddy.jpg", text: "Here is your country. Cherish these natural wonders, cherish the natural resources, cherish the history and romance as a sacred heritage, for your children and your children's children. Do not let selfish men or greedy interests skin your country of its beautry, its riches or its romance.", name: "Theodore Roosevelt", designation: "President" }
+    { img: "assets/img/testimonial/Abe.jpg", text: "Those who deny freedom to others, deserve it not for themselves; and, under a just God, can not long retain it.", name: "Abraham Lincoln", designation: "President" }
 ];
 // install Swiper components
 SwiperCore.use([Navigation]);
