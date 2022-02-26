@@ -38,6 +38,12 @@ Version: 1.0.0
 /*======================
 1.General Code
 ========================*/
+@font-face {
+	font-family: 'Georgia-Regular';
+	src: local('Georgia-Regular'), url(../fonts/georgia/Georgia-Regular-font.ttf) format('woff');
+	/* other formats include: 'woff2', 'truetype, 'opentype',
+							  'embedded-opentype', and 'svg' */
+}
 
 html {
 	overflow-x: hidden;
@@ -8137,4 +8143,8 @@ footer .footer-links .contact-info li a span {
 
 footer {
 	display: none;
+}
+
+.font-georgia-regular {
+	font-family: 'Georgia-Regular';
 }
