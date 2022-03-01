@@ -21,19 +21,19 @@ class About extends Component {
                             <div className="section-header-left pb-0">
                                 <h3 className="header-title text-white mb-20">Mission Statement</h3>
                                 <p className="text-white">
-                                    America’s ruling class has sold out our country, trampled our rights, and doesn’t know how to
-                                    govern. Both Democrats and Republicans are to blame. As did the pioneers who settled this
-                                    country and made it great, we are a group of citizens who have decided to act. They created a
-                                    new world—we intend to revive it.
+                                    America was built by settlers, cowboys, laborers, and businessmen. Citizens who were ambitious and worked towards prosperity and security. The United States was once the irrefutable standard-bearer of liberty for all mankind.
                                 </p>
                                 <p className="text-white">
-                                    We need a new generation of leaders who believe in America’s manifest destiny, who worship
-                                    God and not politics, and who understand that sovereignty, property rights, and patriotic
-                                    capitalism are the key pillars of our freedom and property. Therefore, Sagebrush Rebellion
-                                    seeks to elect representatives who commit to pioneering policy that will secure America’s food
-                                    supply and farm land, decentralize the federal bureaucracy’s hold on the American interior,
-                                    confront aggression from the Chinese Communist Party at home and abroad, and restore
-                                    American innovation and economic sovereignty.
+                                    However, the America we all love is almost unrecognizable. Our current government has been bought and paid for by foreign and corporate interests that would love to see America and her citizens fail.
+                                </p>
+                                <p className="text-white">
+                                    We are a new type of organization that is made up of grassroots fighters who are not beholden to Washington’s inner circles. We are committed to gutting incompetent and corrupt leaders from the political process and supporting individuals who will do what is necessary to save America.
+                                </p>
+                                <p className="text-white">
+                                    Sagebrush Rebellion is here to remind the Washington elites who they really work for. Not the billionaires, not the corporations, and not the special interest groups. They work for, We The People.
+                                </p>
+                                <p className="text-white">
+                                    Help us start a rebellion.
                                 </p>
                             </div>
                         </div>
