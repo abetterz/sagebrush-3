@@ -32,7 +32,7 @@ class Banner extends Component {
                     <div className="col-lg-8 align-self-center">
                       <div className="right-side-content text-center">
                         <img src={bannerLogo} style={bannerLogoStyle} className="image-fit mb-5" alt="square-logo" />
-                        <Link to="#" className="top-btn banner-btn">
+                        <Link to="#" className="top-btn banner-btn d-none">
                           DONATE TODAY
                         </Link>
                         <div className="border d-none">
