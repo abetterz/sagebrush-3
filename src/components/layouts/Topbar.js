@@ -47,29 +47,19 @@ class Topbar extends Component {
               <div className="top-right">
                 <ul className="list-inline">
                   <li className="list-inline-item">
-                    <Link to="#">
+                    <a href="https://www.facebook.com/SagebrushRebellionPAC/">
                       <i className="fab fa-facebook-square" />
-                    </Link>{" "}
+                    </a>{" "}
                   </li>
                   <li className="list-inline-item">
-                    <Link to="#">
+                    <a href="https://twitter.com/sagebrushrebpac">
                       <i className="fab fa-twitter-square" />
-                    </Link>{" "}
+                    </a>{" "}
                   </li>
                   <li className="list-inline-item">
-                    <Link to="#">
+                    <a href="https://www.instagram.com/sagebrushrebellion/">
                       <i className="fab fa-instagram" />
-                    </Link>{" "}
-                  </li>
-                  <li className="list-inline-item">
-                    <Link to="#">
-                      <i className="fab fa-linkedin" />
-                    </Link>{" "}
-                  </li>
-                  <li className="list-inline-item">
-                    <Link to="#">
-                      <i className="fab fa-youtube" />
-                    </Link>{" "}
+                    </a>{" "}
                   </li>
                 </ul>
                 <Link to="#" className="top-btn">

@@ -31,19 +31,13 @@ class Footer extends Component {
                 <div className="footer-links">
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="/"><i class="fab fa-facebook-square"></i></a>
+                      <a href="https://www.facebook.com/SagebrushRebellionPAC/"><i class="fab fa-facebook-square"></i></a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="/"><i class="fab fa-twitter-square"></i></a>
+                      <a href="https://twitter.com/sagebrushrebpac"><i class="fab fa-twitter-square"></i></a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="/"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="/"><i class="fab fa-linkedin"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="/"><i class="fab fa-youtube"></i></a>
+                      <a href="https://www.instagram.com/sagebrushrebellion/"><i class="fab fa-instagram"></i></a>
                     </li>
                     <li class="list-inline-item">
                       <a href="/shop" className="btn-solid btn-solid-white">Shop</a>
@@ -115,29 +109,19 @@ class Footer extends Component {
               <div className="col-lg-6 text-center medewithlove align-self-center d-flex justify-content-between">
                 <ul className="list-inline">
                   <li className="list-inline-item">
-                    <Link to="#">
+                    <a href="https://www.facebook.com/SagebrushRebellionPAC/">
                       <i className="fab fa-facebook-square" />
-                    </Link>{" "}
+                    </a>{" "}
                   </li>
                   <li className="list-inline-item">
-                    <Link to="#">
+                    <a href="https://twitter.com/sagebrushrebpac">
                       <i className="fab fa-twitter-square" />
-                    </Link>{" "}
+                    </a>{" "}
                   </li>
                   <li className="list-inline-item">
-                    <Link to="#">
+                    <a href="https://www.instagram.com/sagebrushrebellion/">
                       <i className="fab fa-instagram" />
-                    </Link>{" "}
-                  </li>
-                  <li className="list-inline-item">
-                    <Link to="#">
-                      <i className="fab fa-linkedin" />
-                    </Link>{" "}
-                  </li>
-                  <li className="list-inline-item">
-                    <Link to="#">
-                      <i className="fab fa-youtube" />
-                    </Link>{" "}
+                    </a>{" "}
                   </li>
                 </ul>
                 <span className="text-white">
@@ -194,29 +178,19 @@ class Footer extends Component {
               <div className="col-copyright text-center medewithlove align-self-center d-flex justify-content-between">
                 <ul className="list-inline">
                   <li className="list-inline-item">
-                    <Link to="#">
+                    <a href="https://www.facebook.com/SagebrushRebellionPAC/">
                       <i className="fab fa-facebook-square" />
-                    </Link>{" "}
+                    </a>{" "}
                   </li>
                   <li className="list-inline-item">
-                    <Link to="#">
+                    <a href="https://twitter.com/sagebrushrebpac">
                       <i className="fab fa-twitter-square" />
-                    </Link>{" "}
+                    </a>{" "}
                   </li>
                   <li className="list-inline-item">
-                    <Link to="#">
+                    <a href="https://www.instagram.com/sagebrushrebellion/">
                       <i className="fab fa-instagram" />
-                    </Link>{" "}
-                  </li>
-                  <li className="list-inline-item">
-                    <Link to="#">
-                      <i className="fab fa-linkedin" />
-                    </Link>{" "}
-                  </li>
-                  <li className="list-inline-item">
-                    <Link to="#">
-                      <i className="fab fa-youtube" />
-                    </Link>{" "}
+                    </a>{" "}
                   </li>
                 </ul>
               </div>
