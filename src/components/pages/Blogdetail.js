@@ -5,22 +5,28 @@ import Header from "../layouts/Header";
 import Breadcrumbs from "../layouts/Breadcrumbs";
 import Footer from "../layouts/Footer";
 import Content from "../sections/blogdetail/Content";
+import {
+  useParams
+} from "react-router-dom";
+import blogpost from '../../data/blog/blogpost.json';
 
-class Blogdetail extends Component {
-  render() {
-    return (
-      <Fragment>
-        <MetaTags>
-          <title>Sagebrush | Blog Detail</title>
-          <meta name="description" content="#" />
-        </MetaTags>
-        <Topbar />
-        <Breadcrumbs breadcrumb={{ pagename: "Blog Detail" }} />
-        <Content />
-        <Footer />
-      </Fragment>
-    );
-  }
+function Blogdetail() {
+
+  let { id } = useParams();
+  console.log(id);
+  return (
+    <Fragment>
+      <MetaTags>
+        <title>Sagebrush | Blog Detail</title>
+        <meta name="description" content="#" />
+      </MetaTags>
+      <Topbar />
+      <Breadcrumbs breadcrumb={{ pagename: "Blog Detail" }} />
+      <Content />
+      <Footer />
+    </Fragment>
+  );
+
 }
 
 export default Blogdetail;

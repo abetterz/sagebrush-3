@@ -53,7 +53,7 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/blog-left" component={Blogleft} />
           <Route exact path="/blog-right" component={Blogright} />
-          <Route exact path="/blog-details" component={Blogdetail} />
+          <Route exact path="/blog-details/:id" component={Blogdetail} />
           <Route exact path="/donation-grid" component={Donationarchive} />
           <Route exact path="/donation-details" component={Donationdetail} />
           <Route exact path="/story-grid" component={Storyarchive} />

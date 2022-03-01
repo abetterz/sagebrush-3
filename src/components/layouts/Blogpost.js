@@ -17,9 +17,12 @@ class Blogpost extends Component {
                         {blogpost.slice(0, 4).map((item, i) => (
                             <div key={i} className="col-xl-3 col-lg-3 col-md-6">
                                 <article className="blog-item blog-item-box">
-                                    <img className="blog-img" src={item.img} alt="img" style={{ position: 'inherit', zIndex: 1 }} />
+                                    <a href='/blog-details/7'>
+                                        <img className="blog-img" src={item.img} alt="img" style={{ position: 'inherit', zIndex: 1 }} />
+                                    </a>
                                     <div className="blog-item-img" style={{ display: 'none' }}>
                                         <img className="blog-img" src={item.img} alt="img" />
+
                                         <ul className="blog-item-badge" style={{ display: 'none' }}>
                                             {item.tags.slice(0, 2).map((tag, i) => (
                                                 <li key={i}><Link to="/blog-details">{tag.name}</Link> </li>
