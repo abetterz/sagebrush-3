@@ -19,8 +19,9 @@ class Blogpost extends Component {
                                 <article className="blog-item blog-item-box">
                                     <img className="blog-img" src={item.img} alt="img" style={{ position: 'inherit', zIndex: 1 }} />
                                     <div className="blog-item-img" style={{ display: 'none' }}>
-                                        <img className="blog-img" src={item.img} alt="img" />
-
+                                        <a href={'/blog-details/' + item.id}>
+                                            <img className="blog-img" src={item.img} alt="img" />
+                                        </a>
                                         <ul className="blog-item-badge" style={{ display: 'none' }}>
                                             {item.tags.slice(0, 2).map((tag, i) => (
                                                 <li key={i}><Link to="/blog-details">{tag.name}</Link> </li>
