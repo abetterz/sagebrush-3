@@ -51,8 +51,8 @@ function Content(props) {
                                                     <div className="tags-box">
                                                         <span className="fs-18 text-light-white"><i className="fas fa-tags" /></span>
                                                         <div className="tags">
-                                                            {tags.slice(0, 3).map((item, i) => (
-                                                                <Link to="/blog-details" key={i}>{item.title}</Link>
+                                                            {blog.tags.slice(0, 3).map((item, i) => (
+                                                                <Link to="/blog-details" key={i}>{item.name}</Link>
                                                             ))}
                                                         </div>
                                                     </div>
