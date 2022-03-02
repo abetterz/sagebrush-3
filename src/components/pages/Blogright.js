@@ -11,11 +11,11 @@ class Blogright extends Component {
     return (
       <Fragment>
         <MetaTags>
-          <title>Sagebrush | Blog</title>
+          <title>Sagebrush | Media</title>
           <meta name="description" content="#" />
         </MetaTags>
         <Topbar />
-        <Breadcrumbs breadcrumb={{ pagename: "Welcome To Our Blog!" }} />
+        <Breadcrumbs breadcrumb={{ pagename: "Welcome To Our Media!" }} />
         <Content />
         <Footer />
       </Fragment>

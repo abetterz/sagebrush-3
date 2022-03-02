@@ -10,7 +10,7 @@ class Blogpost extends Component {
                     <div className="row">
                         <div className="col-12">
                             <div className="section-header-left title">
-                                <h3 className="text-light-black header-title">Our Blog</h3>
+                                <h3 className="text-light-black header-title">Our Media</h3>
                                 <span className="fs-16"><Link to="/blog">See All</Link></span>
                             </div>
                         </div>

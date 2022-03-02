@@ -11,11 +11,11 @@ class Blogleft extends Component {
     return (
       <Fragment>
         <MetaTags>
-          <title>Sagebrush | Blog</title>
+          <title>Sagebrush | Media</title>
           <meta name="description" content="#" />
         </MetaTags>
         <Topbar />
-        <Breadcrumbs breadcrumb={{ pagename: "Blog" }} />
+        <Breadcrumbs breadcrumb={{ pagename: "Media" }} />
         <Content />
         <Footer />
       </Fragment>
