@@ -21,7 +21,7 @@ class Topbar extends Component {
         <div className="container-fluid custom-container">
           <div className="row">
             <div className="col-md-4">
-              <div className="top-left">
+              <div className="top-left d-none">
                 <ul className="top-info">
                   <li>
                     <Link to="#">

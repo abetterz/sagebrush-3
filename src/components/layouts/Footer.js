@@ -80,7 +80,24 @@ class Footer extends Component {
           <div className="container-fluid custom-container">
             <div className="row">
               <div className="col-lg-3">
-                <div className="payment-logo mb-md-20">
+                <ul className="list-inline">
+                  <li className="list-inline-item">
+                    <a href="https://www.facebook.com/SagebrushRebellionPAC/">
+                      <i className="fab fa-facebook-square" />
+                    </a>{" "}
+                  </li>
+                  <li className="list-inline-item">
+                    <a href="https://twitter.com/sagebrushrebpac">
+                      <i className="fab fa-twitter-square" />
+                    </a>{" "}
+                  </li>
+                  <li className="list-inline-item">
+                    <a href="https://www.instagram.com/sagebrushrebellion/">
+                      <i className="fab fa-instagram" />
+                    </a>{" "}
+                  </li>
+                </ul>
+                <div className="payment-logo mb-md-20 d-none">
                   <div className="payemt-icon">
                     <ul className="contact-info list-inline d-flex">
                       <li>
@@ -107,23 +124,6 @@ class Footer extends Component {
                 </div>
               </div>
               <div className="col-lg-6 text-center medewithlove align-self-center d-flex justify-content-between">
-                <ul className="list-inline">
-                  <li className="list-inline-item">
-                    <a href="https://www.facebook.com/SagebrushRebellionPAC/">
-                      <i className="fab fa-facebook-square" />
-                    </a>{" "}
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="https://twitter.com/sagebrushrebpac">
-                      <i className="fab fa-twitter-square" />
-                    </a>{" "}
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="https://www.instagram.com/sagebrushrebellion/">
-                      <i className="fab fa-instagram" />
-                    </a>{" "}
-                  </li>
-                </ul>
                 <span className="text-white">
                   Paid for by Sagebrush Rebellion PAC. Not authorized by any candidate or candidate's committee.
                 </span>
@@ -148,7 +148,7 @@ class Footer extends Component {
         <div className="copyright bg-black">
           <div className="container-fluid custom-container">
             <div className="row align-self-center d-flex justify-content-between">
-              <div className="col-copyright">
+              <div className="col-copyright d-none">
                 <div className="payment-logo mb-md-20">
                   <div className="payemt-icon">
                     <ul className="contact-info list-inline d-flex">
