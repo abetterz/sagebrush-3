@@ -29,7 +29,7 @@ class Testimonials extends Component {
                     <div className="row">
                         <div className="col-12">
                             <div className="section-header-left text-center">
-                                <h3 className="text-white header-title">Our Community</h3>
+                                <h3 className="text-white header-title">Our Inspirations</h3>
                             </div>
                         </div>
                     </div>
