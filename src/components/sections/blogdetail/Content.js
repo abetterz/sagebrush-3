@@ -36,7 +36,7 @@ function Content(props) {
                                                         <img src={process.env.PUBLIC_URL + "/assets/img/blog/user1.jpg"} alt="" />
                                                     </span>
                                                     <div>
-                                                        <Link to="/blog-details"> Admin</Link>
+                                                        <Link to="/blog-details">{blog.author}</Link>
                                                         <Link to="/blog-details">{blog.postdate}</Link>
                                                     </div>
                                                 </p>
