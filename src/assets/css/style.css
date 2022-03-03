@@ -1477,19 +1477,17 @@ span.type-tag {
 	margin-right: 5px;
 }
 
-.top-btn {
-	margin-left: 15px;
-}
-
 .banner-btn.top-btn {
 	float: none;
 }
 
 .top-btn {
+	margin-left: 15px;
 	float: right;
 	color: #ffffff;
 	padding: 10px 19px 12px 19px;
 	background-color: #1b1b1b;
+	display: block !important;
 }
 
 .right-side-content {
@@ -8151,4 +8149,10 @@ footer {
 
 .font-georgia-regular {
 	font-family: 'Georgia-Regular';
+}
+
+@media only screen and (max-width: 767px) {
+	.top-right {
+		display: flex;
+	}
 }

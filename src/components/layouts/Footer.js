@@ -144,7 +144,6 @@ class Footer extends Component {
           </div>
         </div>
 
-
         <div className="copyright bg-black">
           <div className="container-fluid custom-container">
             <div className="row align-self-center d-flex justify-content-between">
