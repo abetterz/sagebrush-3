@@ -30,7 +30,7 @@ class About extends Component {
                                     We are a new type of organization that is made up of grassroots fighters who are not beholden to Washington’s inner circles. We are committed to gutting incompetent and corrupt leaders from the political process and supporting individuals who will do what is necessary to save America.
                                 </p>
                                 <p className="text-white">
-                                    Sagebrush Rebellion is here to remind the Washington elites who they really work for. Not the billionaires, not the corporations, and not the special interest groups. They work for, We The People.
+                                    Sagebrush Rebellion is here to remind the Washington elites who they really work for. Not the billionaires, not the corporations, and not the special interest groups. They work for us, We The People.
                                 </p>
                                 <p className="text-white">
                                     Help us start a rebellion.

@@ -24,12 +24,12 @@ class Blogpost extends Component {
                                         <img className="blog-img" src={item.img} alt="img" />
                                         <ul className="blog-item-badge" style={{ display: 'none' }}>
                                             {item.tags.slice(0, 2).map((tag, i) => (
-                                                <li key={i}><Link to="/blog-details">{tag.name}</Link> </li>
+                                                <li key={i}><Link to={'/blog-details/' + item.id}>{tag.name}</Link> </li>
                                             ))}
                                         </ul>
                                     </div>
                                     <div className="blog-item-content">
-                                        <h5 className="blog-item-title"><Link to="/blog-details">{item.title}</Link></h5>
+                                        <h5 className="blog-item-title"><Link to={'/blog-details/' + item.id}>{item.title}</Link></h5>
                                         <p className='d-none'>{item.text}</p>
                                         <div className="blog-item-details">
                                             <span className="blog-item-date">
