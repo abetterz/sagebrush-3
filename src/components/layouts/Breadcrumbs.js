@@ -12,7 +12,7 @@ class Breadcrumbs extends Component {
                         <ul>
                             <li><Link to="/">Home</Link>
                             </li>
-                            <li className="active">{this.props.breadcrumb.pagename}</li>
+                            <li className="active"></li>
                         </ul>
                     </div>
                 </div>
