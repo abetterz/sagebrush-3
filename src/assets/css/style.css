@@ -1481,13 +1481,17 @@ span.type-tag {
 	float: none;
 }
 
-.top-btn {
+.donate-btn {
 	margin-left: 15px;
 	float: right;
 	color: #ffffff;
 	padding: 10px 19px 12px 19px;
 	background-color: #1b1b1b;
 	display: block !important;
+}
+
+.copyright .donate-btn {
+	background-color: #9a622d;
 }
 
 .right-side-content {
@@ -8151,8 +8155,20 @@ footer {
 	font-family: 'Georgia-Regular';
 }
 
+.d-none-767.donate-btn {
+	display: none !important;
+}
+
 @media only screen and (max-width: 767px) {
 	.top-right {
 		display: flex;
+	}
+
+	.d-none-767.donate-btn {
+		display: block !important;
+	}
+
+	.d-show-767.donate-btn {
+		display: none !important;
 	}
 }

@@ -45,6 +45,9 @@ class Topbar extends Component {
             </div>
             <div className="col-md-4">
               <div className="top-right">
+                <a href="https://www.paypal.com/donate/?hosted_button_id=G3ZQ7QKEYQEKQ" className="donate-btn d-none-767" style={{ marginRight: "15px", fontSize: "12px" }} target="_blank">
+                  DONATE TODAY
+                </a>
                 <ul className="list-inline">
                   <li className="list-inline-item">
                     <a href="https://www.facebook.com/SagebrushRebellionPAC/">
@@ -62,7 +65,7 @@ class Topbar extends Component {
                     </a>{" "}
                   </li>
                 </ul>
-                <a href="https://www.paypal.com/donate/?hosted_button_id=G3ZQ7QKEYQEKQ" className="top-btn" target="_blank">
+                <a href="https://www.paypal.com/donate/?hosted_button_id=G3ZQ7QKEYQEKQ" className="donate-btn d-show-767" target="_blank">
                   DONATE TODAY
                 </a>
               </div>

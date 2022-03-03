@@ -200,6 +200,13 @@ class Footer extends Component {
               </div>
               <div className="col-copyright">
                 <div className="copyright-text">
+                  <a href="https://www.paypal.com/donate/?hosted_button_id=G3ZQ7QKEYQEKQ" className="donate-btn" target="_blank">
+                    DONATE TODAY
+                  </a>
+                </div>
+              </div>
+              <div className="col-copyright">
+                <div className="copyright-text">
                   {" "}
                   <span className="text-white">
                     ©{" "}
