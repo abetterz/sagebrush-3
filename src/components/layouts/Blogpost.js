@@ -28,14 +28,14 @@ class Blogpost extends Component {
                                             ))}
                                         </ul>
                                     </div>
-                                    <div className="blog-item-content" style={{ display: 'none' }}>
+                                    <div className="blog-item-content">
                                         <h5 className="blog-item-title"><Link to="/blog-details">{item.title}</Link></h5>
-                                        <p>{item.text}</p>
+                                        <p className='d-none'>{item.text}</p>
                                         <div className="blog-item-details">
                                             <span className="blog-item-date">
                                                 <i className="fas fa-calendar-week" /> {item.postdate}
                                             </span>
-                                            <span><i className="fas fa-comment-dots" /> {item.commentcount}</span>
+                                            <span><i className="fas fa-solid fa-user" /> {item.author}</span>
                                         </div>
                                     </div>
                                 </article>

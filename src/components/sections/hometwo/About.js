@@ -7,7 +7,7 @@ class About extends Component {
     render() {
         return (
             <section className="about-section-style-1">
-                <div className="row no-gutters bg-custom-primary">
+                <div className="row no-gutters bg-custom-primary d-flex align-items-center">
                     <div className="col-lg-6">
                         <div className="full-height" style={{ lineHeight: 1 }}>
                             <video controls poster="assets/img/home-mission-statement.jpg" className="img-fluid full-width full-height">
