@@ -8171,4 +8171,8 @@ footer {
 	.d-show-767.donate-btn {
 		display: none !important;
 	}
+
+	.copyright .col-copyright {
+		margin: auto;
+	}
 }
