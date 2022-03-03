@@ -62,9 +62,9 @@ class Topbar extends Component {
                     </a>{" "}
                   </li>
                 </ul>
-                <Link to="#" className="top-btn">
+                <a href="https://www.paypal.com/donate/?hosted_button_id=G3ZQ7QKEYQEKQ" className="top-btn" target="_blank">
                   DONATE TODAY
-                </Link>
+                </a>
               </div>
             </div>
           </div>

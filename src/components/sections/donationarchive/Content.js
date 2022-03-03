@@ -48,7 +48,7 @@ class Content extends Component {
                                                         </div>
                                                     </div>
                                                     <div className="btn-area text-center">
-                                                        <Link className="btn-donation text-btn" to="#">donate now</Link>
+                                                        <a className="btn-donation text-btn" href='https://lumina-vinova.myshopify.com'>donate now</a>
                                                     </div>
                                                 </div>
                                             </div>

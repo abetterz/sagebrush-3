@@ -43,7 +43,7 @@ class Footer extends Component {
                       <a href="/shop" className="btn-solid btn-solid-white">Shop</a>
                     </li>
                     <li class="list-inline-item">
-                      <a className="btn-solid btn-solid-white" href="/">DONATE</a>
+                      <a className="btn-solid btn-solid-white" href="https://www.paypal.com/donate/?hosted_button_id=G3ZQ7QKEYQEKQ">DONATE</a>
                     </li>
                   </ul>
                 </div>
