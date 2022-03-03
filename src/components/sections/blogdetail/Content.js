@@ -69,7 +69,7 @@ function Content(props) {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="comment-box">
+                                        <div className="comment-box d-none">
                                             <div className="section-header-left">
                                                 <h6 className="text-light-black header-title">Comments</h6>
                                             </div>
