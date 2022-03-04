@@ -20,7 +20,7 @@ class Community extends Component {
                     <div className="row">
                         <div className="col-12">
                             <div className="section-header-left">
-                                <h3 className="text-light-black header-title title"> Our Promise To The Community</h3>
+                                <h3 className="text-light-black header-title title"> Our Focus</h3>
                             </div>
                         </div>
                     </div>
