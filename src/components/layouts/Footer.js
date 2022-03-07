@@ -34,7 +34,7 @@ class Footer extends Component {
                       <a href="https://www.facebook.com/SagebrushRebellionPAC/"><i class="fab fa-facebook-square"></i></a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="https://twitter.com/sagebrushrebpac"><i class="fab fa-twitter-square"></i></a>
+                      <a href="https://twitter.com/Sagebrush_USA"><i class="fab fa-twitter-square"></i></a>
                     </li>
                     <li class="list-inline-item">
                       <a href="https://www.instagram.com/sagebrushrebellion/"><i class="fab fa-instagram"></i></a>
@@ -87,7 +87,7 @@ class Footer extends Component {
                     </a>{" "}
                   </li>
                   <li className="list-inline-item">
-                    <a href="https://twitter.com/sagebrushrebpac">
+                    <a href="https://twitter.com/Sagebrush_USA">
                       <i className="fab fa-twitter-square" />
                     </a>{" "}
                   </li>
@@ -182,7 +182,7 @@ class Footer extends Component {
                     </a>{" "}
                   </li>
                   <li className="list-inline-item">
-                    <a href="https://twitter.com/sagebrushrebpac">
+                    <a href="https://twitter.com/Sagebrush_USA">
                       <i className="fab fa-twitter-square" />
                     </a>{" "}
                   </li>

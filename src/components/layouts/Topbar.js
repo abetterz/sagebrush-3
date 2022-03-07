@@ -55,7 +55,7 @@ class Topbar extends Component {
                     </a>{" "}
                   </li>
                   <li className="list-inline-item">
-                    <a href="https://twitter.com/sagebrushrebpac">
+                    <a href="https://twitter.com/Sagebrush_USA">
                       <i className="fab fa-twitter-square" />
                     </a>{" "}
                   </li>
