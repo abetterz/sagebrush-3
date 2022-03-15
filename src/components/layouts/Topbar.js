@@ -45,7 +45,7 @@ class Topbar extends Component {
             </div>
             <div className="col-md-4">
               <div className="top-right">
-                <a href="https://www.paypal.com/donate/?hosted_button_id=G3ZQ7QKEYQEKQ" className="donate-btn d-none-767" style={{ marginRight: "15px", fontSize: "12px" }} target="_blank">
+                <a href="https://secure.anedot.com/bc203042-d230-4dfb-ae3c-e35b60167f94/56f97a5b-f93c-47ce-94df-fd1dd77651d8" className="donate-btn d-none-767" style={{ marginRight: "15px", fontSize: "12px" }} target="_blank">
                   DONATE TODAY
                 </a>
                 <ul className="list-inline">
