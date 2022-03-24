@@ -30,6 +30,7 @@ const AgricultureAndFoodSecurity = React.lazy(() => import("./components/pages/A
 const ChineseAggression = React.lazy(() => import("./components/pages/ChineseAggression"));
 const AmericanIndustry = React.lazy(() => import("./components/pages/AmericanIndustry"));
 const CryptoCurrencies = React.lazy(() => import("./components/pages/CryptoCurrencies"));
+const Energy = React.lazy(() => import("./components/pages/Energy"));
 const LocalLandManagement = React.lazy(() => import("./components/pages/LocalLandManagement"));
 const Wishlist = React.lazy(() => import("./components/pages/Wishlist"));
 const Checkout = React.lazy(() => import("./components/pages/Checkout"));
@@ -65,6 +66,7 @@ function App() {
           <Route exact path="/chinese-aggression" component={ChineseAggression} />
           <Route exact path="/american-industry" component={AmericanIndustry} />
           <Route exact path="/crypto-currencies" component={CryptoCurrencies} />
+          <Route exact path="/energy" component={Energy} />
           <Route exact path="/local-land-management" component={LocalLandManagement} />
           {/* <Route exact path="/shop-details" component={Shopdetail} /> */}
           <Route exact path="/wishlist" component={Wishlist} />

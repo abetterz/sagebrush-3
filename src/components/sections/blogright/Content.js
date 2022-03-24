@@ -85,13 +85,7 @@ import blogpost from '../../../data/blog/blogpost.json';
 
 
 
-// const hasNoText = () => {
-// <h5 className="blog-item-title"><a href={item.link}>{item.title}</a></h5>
-// }
 
-// const hasText = () => {
-// return <h5 className="blog-item-title"><Link to={`/blog-details/${item.id}`}>{item.title}</Link></h5>
-// }
 
 class Content extends Component {
     render() {
