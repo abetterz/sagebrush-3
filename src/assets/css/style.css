@@ -97,6 +97,7 @@ label {
 .custom-container {
 	padding-right: 8%;
 	padding-left: 8%;
+	border: #000 5px;
 }
 
 .copyright .custom-container {
@@ -637,6 +638,7 @@ table {
 
 .full-width {
 	width: 100%;
+	
 }
 
 .full-height {
@@ -3439,6 +3441,10 @@ footer .footer-links .contact-info li a span {
 
 .breadcrumb-area.chinese-aggression {
 	background-image: url("../img/banner/China_Aggression.jpg");
+}
+
+.breadcrumb-area.american-energy {
+	background-image: url("../img/banner/Energy_Page_Header_Photo.jpg");
 }
 
 .breadcrumb-area .breadcrumb-content {
